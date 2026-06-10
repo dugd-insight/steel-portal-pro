@@ -1,0 +1,665 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "solutions": "解决方案",
+    "about": "关于我们",
+    "technology": "技术实力",
+    "esg": "ESG环保",
+    "news": "新闻动态",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "hero": {
+    "badge": "全球钢铁企业信赖之选",
+    "title": "钢管钢板",
+    "titleHighlight": "供应链管理",
+    "description": "赋能产业升级，推动高质量发展 — 专业钢管钢板供应链合作伙伴。",
+    "exploreProducts": "探索产品",
+    "contactSales": "联系销售",
+    "scroll": "向下滚动"
+  },
+  "stats": {
+    "serviceCompanies": "服务企业数",
+    "exportVolume": "带动产业出口",
+    "exportUnit": "万",
+    "countries": "覆盖国家和地区",
+    "countryUnit": "个",
+    "buyers": "优质采购商",
+    "years": "年行业深耕",
+    "tons": "月交付吨数",
+    "satisfaction": "客户满意度"
+  },
+  "products": {
+    "sectionLabel": "我们的产品",
+    "title": "钢管钢板供应链解决方案",
+    "description": "提供钢管、钢板等主材供应及大宗物资贸易服务，配套供应链监管仓库，助力全球钢铁企业高效运营。",
+    "learnMore": "了解更多",
+    "items": {
+      "galvanizedSteel": {
+        "title": "钢管",
+        "description": "涵盖镀锌钢管、ERW钢管、螺旋钢管等全系列，满足流体输送、油气管道、建筑结构等多元化需求。",
+        "badge": "主营产品"
+      },
+      "steelBillets": {
+        "title": "钢板",
+        "description": "包括热轧钢板、冷轧钢板、镀锌钢板等，品质卓越，广泛应用于各类工程项目。",
+        "badge": "核心产品"
+      },
+      "prePaintedSteel": {
+        "title": "钢坯",
+        "description": "优质连铸钢坯，符合国际标准，为钢铁深加工提供可靠原材料保障。",
+        "badge": "原材料"
+      },
+      "supplyChain": {
+        "title": "供应链服务",
+        "description": "项目主材供应、大宗物资贸易、供应链监管仓库，为全球钢铁企业提供一站式解决方案。",
+        "badge": "核心服务"
+      }
+    },
+    "featured": {
+      "giPipeRound": {
+        "title": "镀锌圆管",
+        "description": "热镀锌圆管，表面光洁，锌层均匀，耐腐蚀性能优异。",
+        "badge": "热销"
+      },
+      "seamlessPipe": {
+        "title": "无缝钢管",
+        "description": "无缝钢管，无焊缝、承压能力强，适用于高压高温环境。",
+        "badge": "主营"
+      },
+      "giCoil": {
+        "title": "镀锌卷",
+        "description": "热镀锌钢卷，锌层附着力强，防腐性能好。",
+        "badge": "热销"
+      },
+      "ppgiCoil": {
+        "title": "彩涂卷（PPGI）",
+        "description": "预涂彩色钢卷，色彩丰富、耐候性强。",
+        "badge": "新品"
+      },
+      "giRoofing": {
+        "title": "镀锌瓦楞板",
+        "description": "镀锌瓦楞板，轻质高强，防水防腐。",
+        "badge": "热销"
+      },
+      "steelSection": {
+        "title": "U型钢/H型钢/角钢",
+        "description": "U型槽钢、H型钢、等边角钢，材质优良。",
+        "badge": "主营"
+      }
+    },
+    "specs": {
+      "zincCoating": "镀锌层: Z80-Z275",
+      "thickness": "壁厚: 2.0-20mm",
+      "width": "管径: DN20-DN2000",
+      "size": "板材厚度: 0.5-25mm",
+      "grade": "材质: Q235/Q355/API 5L",
+      "length": "长度: 6-12m定尺",
+      "coating": "表面处理: 镀锌/喷漆/3PE",
+      "colors": "涂层: PE/SMP/PVDF",
+      "globalShipping": "全球运输",
+      "customsClearance": "清关服务",
+      "qualityInspection": "质量检验"
+    }
+  },
+  "about": {
+    "sectionLabel": "关于鲁西供应链",
+    "title": "关于公司",
+    "subtitle": "鲁西（聊城）供应链管理有限公司",
+    "welcome": "欢迎了解鲁西供应链",
+    "description": "鲁西（聊城）供应链管理有限公司成立于山东聊城，依托本地深厚的钢管钢板产业基础，聚焦产业链价值创造。公司专注于钢管、钢板等主材供应及大宗物资贸易服务，配套供应链监管仓库，为全球钢铁企业提供高效、可靠的供应链解决方案，推动行业高质量发展。",
+    "established": "成立于聊城",
+    "tabs": {
+      "company": "关于公司",
+      "culture": "企业文化",
+      "certificates": "资质证书",
+      "whyUs": "选择我们"
+    },
+    "company": {
+      "intro": "公司简介",
+      "description": "鲁西（聊城）供应链管理有限公司是一家专业从事钢管、钢板供应链服务的企业。公司总部位于山东省聊城市，依托当地丰富的钢铁产业资源，建立了完善的采购、仓储、物流、销售一体化服务体系。",
+      "factory": {
+        "title": "生产规模",
+        "employees": "员工数量",
+        "employeesValue": "200+",
+        "technicians": "技术人员",
+        "techniciansValue": "30+",
+        "output": "年产能",
+        "outputValue": "50万吨",
+        "lines": "生产线",
+        "linesValue": "8条"
+      },
+      "products": {
+        "title": "主营产品",
+        "items": [
+          "镀锌钢管、ERW钢管、螺旋钢管",
+          "热轧钢板、冷轧钢板、镀锌钢板",
+          "钢坯及各类钢材深加工产品"
+        ]
+      },
+      "applications": {
+        "title": "应用领域",
+        "items": [
+          "流体输送与油气管道",
+          "工业与民用建筑",
+          "农业与交通设施",
+          "钢结构工程"
+        ]
+      },
+      "export": {
+        "title": "出口情况",
+        "regions": "出口地区",
+        "regionsValue": "30+国家",
+        "projects": "合作项目",
+        "projectsValue": "100+项目",
+        "customers": "服务客户",
+        "customersValue": "500+企业"
+      }
+    },
+    "culture": {
+      "title": "企业文化",
+      "vision": {
+        "label": "企业愿景",
+        "title": "立足钢铁行业，服务全球建设",
+        "desc": "立足钢铁行业，为中国制造代言，将优质产品和服务输送到世界需要建设的地方，成为受尊重的钢铁服务商。"
+      },
+      "mission": {
+        "label": "企业使命",
+        "title": "成就合作伙伴，快乐企业员工",
+        "desc": "以客户成功为衡量成功的唯一标准；以人为本，为员工提供展示才华的高质量平台，让不同岗位的员工都能创造精彩人生。"
+      },
+      "values": {
+        "label": "核心价值观",
+        "customerFirst": {
+          "title": "客户第一",
+          "desc": "客户是我们生命的创造者，始终以客户为中心，客户需求是我们不懈的追求。"
+        },
+        "selfDiscipline": {
+          "title": "自律",
+          "desc": "持续学习，不断提升自身素质，以利益人的标准作为做事的出发点。"
+        },
+        "dedication": {
+          "title": "敬业",
+          "desc": "顾全大局，不计个人得失，保持积极乐观的态度，不断突破自我，提升绩效。"
+        }
+      },
+      "philosophy": {
+        "label": "经营理念",
+        "title": "诚信于心，利人利己",
+        "desc": "以诚待人，做正义之事，以人为本，精益管理，将最好的产品、服务和利益带给合作伙伴，创造社会价值，实现自我价值。"
+      },
+      "spirit": {
+        "label": "创业精神",
+        "title": "居安思危，自强不息",
+        "desc": "居安思危，思则有备，有备无患；始终保持活力，具有强烈的竞争意识，不断创新，不畏困难，坚韧勇敢，奋发有为。"
+      }
+    },
+    "certificates": {
+      "title": "资质证书",
+      "subtitle": "品质认证 · 国际标准",
+      "items": [
+        { "name": "ISO 9001", "desc": "质量管理体系认证" },
+        { "name": "ISO 14001", "desc": "环境管理体系认证" },
+        { "name": "CE", "desc": "欧盟产品安全认证" },
+        { "name": "API 5L", "desc": "管线钢管认证" },
+        { "name": "API 5CT", "desc": "套管和油管认证" },
+        { "name": "SGS", "desc": "国际第三方检验认证" }
+      ]
+    },
+    "whyUs": {
+      "title": "选择我们的理由",
+      "subtitle": "9大核心优势",
+      "items": [
+        {
+          "num": "01",
+          "title": "一体化供应链服务",
+          "desc": "业务涵盖采购、生产、仓储、物流、销售全链条，为客户提供一站式解决方案。"
+        },
+        {
+          "num": "02",
+          "title": "优质原材料来源",
+          "desc": "原材料均来自国内知名钢企，每道工序严格执行ISO管理体系，确保产品品质。"
+        },
+        {
+          "num": "03",
+          "title": "多项国际认证",
+          "desc": "持有ISO、CE、API、SGS等多项国际认证，支持第三方检验，质量有保障。"
+        },
+        {
+          "num": "04",
+          "title": "价格与质量并重",
+          "desc": "以批发为主，薄利多销，为客户提供高性价比的产品，让利给合作伙伴。"
+        },
+        {
+          "num": "05",
+          "title": "24小时在线服务",
+          "desc": "全天候为客户提供咨询和报价服务，响应及时，沟通顺畅。"
+        },
+        {
+          "num": "06",
+          "title": "灵活订单支持",
+          "desc": "支持小批量订单和客户定制需求，满足不同规模、不同类型的采购需求。"
+        },
+        {
+          "num": "07",
+          "title": "丰富行业经验",
+          "desc": "深耕钢管钢板行业多年，积累了丰富的行业经验和专业技术知识。"
+        },
+        {
+          "num": "08",
+          "title": "广泛客户基础",
+          "desc": "产品出口30多个国家和地区，服务500多家企业，客户遍及全球。"
+        },
+        {
+          "num": "09",
+          "title": "成功项目案例",
+          "desc": "参与100多个大型工程项目，积累了丰富的项目服务经验和良好的行业口碑。"
+        }
+      ]
+    },
+    "facilities": {
+      "title": "供应链监管仓库",
+      "description": "设立专业供应链监管仓库，为大宗物资贸易提供安全、便捷的仓储物流服务"
+    },
+    "team": {
+      "title": "专业团队",
+      "description": "深耕钢管钢板行业多年的专业团队，为客户提供全方位服务支持"
+    },
+    "features": {
+      "isoCertified": {
+        "title": "ISO质量认证",
+        "description": "严格执行质量管理体系，确保每一批货物都符合国际标准。"
+      },
+      "globalLogistics": {
+        "title": "全球物流网络",
+        "description": "覆盖全球的物流网络，确保货物安全、快速送达客户手中。"
+      },
+      "support": {
+        "title": "专业客服支持",
+        "description": "经验丰富的客服团队，提供全程专业咨询与售后服务。"
+      },
+      "customSolutions": {
+        "title": "定制化方案",
+        "description": "根据客户需求，量身定制采购方案与供应链解决方案。"
+      }
+    }
+  },
+  "features": {
+    "sectionLabel": "核心优势",
+    "title": "为什么选择我们",
+    "description": "多年行业经验，专业团队，为全球客户提供优质的钢管钢板供应链服务",
+    "quality": {
+      "title": "ISO质量认证",
+      "desc": "严格执行质量管理体系，确保每一批货物都符合国际标准。"
+    },
+    "global": {
+      "title": "全球物流网络",
+      "desc": "覆盖全球的物流网络，确保货物安全、快速送达客户手中。"
+    },
+    "support": {
+      "title": "专业客服支持",
+      "desc": "经验丰富的客服团队，提供全程专业咨询与售后服务。"
+    },
+    "custom": {
+      "title": "定制化方案",
+      "desc": "根据客户需求，量身定制采购方案与供应链解决方案。"
+    }
+  },
+  "warehouse": {
+    "sectionLabel": "仓储物流",
+    "title": "现代化供应链监管仓库",
+    "description": "专业仓储设施，提供货物监管、库存管理、物流配送一站式服务",
+    "items": {
+      "storage": {
+        "title": "仓储管理",
+        "desc": "现代化仓库设施，配备先进的仓储管理系统"
+      },
+      "processing": {
+        "title": "加工服务",
+        "desc": "提供切割、分条、开平等钢材加工服务"
+      },
+      "logistics": {
+        "title": "物流配送",
+        "desc": "覆盖全国的物流网络，确保货物及时送达"
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "客户评价",
+    "title": "全球客户信赖之选",
+    "items": {
+      "michael": {
+        "quote": "鲁西供应链的钢管产品质量稳定，交货准时，是我们值得信赖的长期合作伙伴。",
+        "author": "张总",
+        "role": "采购总监",
+        "company": "某建筑工程公司"
+      },
+      "sarah": {
+        "quote": "供应链监管仓库服务大大降低了我们的仓储成本，物流效率显著提升。",
+        "author": "王经理",
+        "role": "供应链负责人",
+        "company": "某贸易集团"
+      },
+      "ahmed": {
+        "quote": "从询价到发货全程专业高效，完美满足我们的大宗物资采购需求。",
+        "author": "李总",
+        "role": "总经理",
+        "company": "某海外贸易公司"
+      }
+    }
+  },
+  "contact": {
+    "sectionLabel": "联系我们",
+    "title": "让我们讨论您的需求",
+    "description": "无论您需要钢管钢板报价、供应链解决方案咨询，还是想了解合作机会，我们的团队随时准备为您提供帮助。",
+    "info": {
+      "headquarters": {
+        "title": "公司地址",
+        "address": "山东省聊城市\n鲁西供应链监管仓库"
+      },
+      "email": {
+        "title": "邮件联系",
+        "addresses": "sales@luxi-supply.com\nsupport@luxi-supply.com"
+      },
+      "phone": {
+        "title": "电话联系",
+        "numbers": "固定电话: +86 635 2180898\n移动电话: +86 15063550004"
+      }
+    },
+    "form": {
+      "name": "姓名",
+      "namePlaceholder": "张三",
+      "email": "电子邮箱",
+      "emailPlaceholder": "zhangsan@company.com",
+      "company": "公司名称",
+      "companyPlaceholder": "贵公司名称",
+      "message": "留言",
+      "messagePlaceholder": "请告诉我们您的需求...",
+      "send": "发送消息",
+      "sent": "消息已发送！",
+      "title": "发送消息",
+      "submit": "提交留言"
+    }
+  },
+  "news": {
+    "title": "新闻动态",
+    "description": "了解鲁西供应链最新资讯和行业动态",
+    "categories": {
+      "company": "公司新闻",
+      "industry": "行业动态"
+    },
+    "items": [
+      {
+        "date": "2024-01-15",
+        "title": "鲁西供应链荣获年度最佳服务商奖",
+        "desc": "凭借优质的服务和专业的供应链管理能力，荣获年度最佳服务商称号。",
+        "category": "公司新闻"
+      },
+      {
+        "date": "2024-01-10",
+        "title": "新年首月钢材出口量创新高",
+        "desc": "新年伊始，公司钢材出口业务取得开门红，出口量较去年同期增长30%。",
+        "category": "行业动态"
+      },
+      {
+        "date": "2024-01-05",
+        "title": "供应链监管仓库二期项目启动",
+        "desc": "为满足不断增长的业务需求，公司启动供应链监管仓库二期建设。",
+        "category": "公司新闻"
+      }
+    ]
+  },
+  "cta": {
+    "title": "准备好开始了吗？",
+    "description": "立即联系我们的团队，获取钢管钢板报价及供应链解决方案咨询。",
+    "primary": "获取报价",
+    "secondary": "查看产品",
+    "requestQuote": "获取报价",
+    "viewProducts": "查看产品"
+  },
+  "footer": {
+    "description": "鲁西（聊城）供应链管理有限公司 - 您值得信赖的钢管钢板供应链合作伙伴。",
+    "links": {
+      "products": "产品",
+      "company": "公司",
+      "support": "支持"
+    },
+    "productLinks": ["钢管", "钢板", "钢坯", "供应链服务"],
+    "companyLinks": ["关于我们", "服务项目", "新闻动态", "联系我们"],
+    "supportLinks": ["获取报价", "常见问题", "技术支持", "合作条款"],
+    "copyright": "© 2024 鲁西（聊城）供应链管理有限公司 版权所有",
+    "certifications": {
+      "iso9001": "ISO 9001:2015认证",
+      "iso14001": "ISO 14001:2015认证"
+    }
+  },
+  "solutions": {
+    "title": "供应链解决方案",
+    "subtitle": "专业的钢管钢板供应链服务，为您的业务提供全方位支持",
+    "sectionTitle": "全方位供应链服务",
+    "sectionSubtitle": "根据您的项目需求量身定制的端到端解决方案",
+    "learnMore": "了解更多 →",
+    "statLabels": {
+      "projectsDelivered": "已交付项目",
+      "tonsMonthly": "月供应吨数",
+      "storage": "㎡ 仓储面积"
+    },
+    "process": {
+      "label": "流程",
+      "title": "服务流程",
+      "subtitle": "从询价到交付的高效流程",
+      "steps": [
+        { "title": "需求沟通", "description": "提交您的需求" },
+        { "title": "方案报价", "description": "获取详细报价方案" },
+        { "title": "签订合同", "description": "确认合作条款" },
+        { "title": "生产执行", "description": "启动生产制造" },
+        { "title": "质检交付", "description": "质量检验与发货" }
+      ]
+    },
+    "items": {
+      "materialSupply": {
+        "title": "项目主材供应",
+        "description": "为大型工程项目提供钢管、钢板等主材供应服务，配套专业供应链管理。"
+      },
+      "bulkTrade": {
+        "title": "大宗物资贸易",
+        "description": "专业的钢材大宗贸易服务，连接优质供应商与全球采购商。"
+      },
+      "warehouse": {
+        "title": "供应链监管仓库",
+        "description": "现代化仓储设施，提供货物监管、库存管理、物流配送一站式服务。"
+      }
+    },
+    "cta": {
+      "title": "需要定制解决方案？",
+      "description": "我们的团队可以根据您的具体需求，为您量身定制供应链解决方案",
+      "button": "联系我们"
+    }
+  },
+  "technology": {
+    "title": "技术实力",
+    "subtitle": "先进的生产设备、完善的检测体系、专业的研发团队，为客户提供高品质的钢铁产品和解决方案",
+    "stats": {
+      "efficiencyGain": "效率提升",
+      "rndCenter": "研发中心",
+      "passRate": "合格率",
+      "autoLines": "自动化产线"
+    },
+    "capabilities": {
+      "label": "核心能力",
+      "title": "核心能力",
+      "subtitle": "持续投入技术创新，引领行业发展",
+      "smartManufacturing": {
+        "title": "智能制造",
+        "description": "引进德国西门子自动化控制系统，实现全流程数字化管理，生产效率提升40%",
+        "statValue": "40%",
+        "statLabel": "效率提升"
+      },
+      "rndCenter": {
+        "title": "研发中心",
+        "description": "拥有3000㎡现代化研发中心，配备先进的材料测试和分析设备",
+        "statValue": "3000㎡",
+        "statLabel": "研发面积"
+      },
+      "qualityTesting": {
+        "title": "质量检测",
+        "description": "配备光谱分析仪、万能试验机等精密检测设备，确保产品质量稳定",
+        "statValue": "99.8%",
+        "statLabel": "合格率"
+      },
+      "automation": {
+        "title": "自动化产线",
+        "description": "8条全自动生产线，从原材料到成品全程自动化控制",
+        "statValue": "8条",
+        "statLabel": "生产线"
+      }
+    },
+    "process": {
+      "label": "生产工艺",
+      "title": "生产工艺",
+      "subtitle": "严格把控每个环节，确保产品质量",
+      "steps": [
+        { "number": "01", "title": "原材料检验", "description": "严格的入厂检验标准，确保原材料质量" },
+        { "number": "02", "title": "熔炼铸造", "description": "先进的电弧炉熔炼技术，精确控制成分" },
+        { "number": "03", "title": "轧制成型", "description": "高精度轧机，确保尺寸精度达标" },
+        { "number": "04", "title": "热处理", "description": "控温精确的热处理工艺，优化材料性能" },
+        { "number": "05", "title": "表面处理", "description": "镀锌、涂层等表面处理，增强耐腐蚀性" },
+        { "number": "06", "title": "成品检测", "description": "全项检测，确保每件产品符合标准" }
+      ]
+    },
+    "certifications": {
+      "label": "资质认证",
+      "title": "资质认证",
+      "subtitle": "国际标准认证，品质值得信赖",
+      "items": [
+        { "name": "ISO 9001", "standard": "质量管理体系" },
+        { "name": "ISO 14001", "standard": "环境管理体系" },
+        { "name": "ISO 45001", "standard": "职业健康安全" },
+        { "name": "API 5L", "standard": "管线钢管规范" },
+        { "name": "CE认证", "standard": "欧盟产品认证" },
+        { "name": "BV认证", "standard": "法国船级社" }
+      ]
+    },
+    "equipment": {
+      "label": "检测设备",
+      "title": "检测设备",
+      "subtitle": "国际一流的检测设备，确保数据准确可靠",
+      "tableHeaders": {
+        "name": "设备名称",
+        "model": "型号",
+        "origin": "产地"
+      },
+      "items": [
+        { "name": "光谱分析仪", "model": "OBLF QSN 750-II", "origin": "德国" },
+        { "name": "万能试验机", "model": "INSTRON 5985", "origin": "美国" },
+        { "name": "冲击试验机", "model": "ZWICK RKP 450", "origin": "德国" },
+        { "name": "硬度计", "model": "WILSON Rockwell", "origin": "美国" },
+        { "name": "金相显微镜", "model": "ZEISS Axio", "origin": "德国" },
+        { "name": "超声波探伤仪", "model": "OLYMPUS EPOCH", "origin": "日本" }
+      ]
+    },
+    "rnd": {
+      "label": "研发中心",
+      "title": "研发中心",
+      "description": "公司拥有专业的研发团队，与多所知名高校和科研院所建立合作关系，持续投入新产品、新工艺的研发。已获得多项国家专利，在特殊钢材领域具有领先的技术优势。",
+      "stats": {
+        "staff": { "value": "50+", "label": "研发人员" },
+        "patents": { "value": "30+", "label": "国家专利" },
+        "investment": { "value": "5%", "label": "研发投入占比" }
+      }
+    }
+  },
+  "esg": {
+    "title": "可持续发展",
+    "subtitle": "我们致力于在环境保护、社会责任和公司治理方面持续改进，为构建绿色低碳的钢铁产业贡献力量",
+    "stats": {
+      "renewableEnergy": { "value": 30, "suffix": "%", "label": "可再生能源使用" },
+      "waterRecycling": { "value": 95, "suffix": "%", "label": "水资源循环利用率" },
+      "scrapRecycling": { "value": 90, "suffix": "%", "label": "废钢回收利用率" },
+      "trainingHours": { "value": 40, "suffix": "h", "label": "年均培训时长" }
+    },
+    "pillars": {
+      "label": "我们的承诺",
+      "title": "ESG 三大支柱",
+      "subtitle": "为钢铁行业构建可持续发展的未来",
+      "environmental": {
+        "title": "环境责任",
+        "subtitle": "绿色制造",
+        "items": ["2050年实现碳中和", "95%水资源循环利用", "90%废钢回收利用", "30%可再生能源"]
+      },
+      "social": {
+        "title": "社会责任",
+        "subtitle": "以人为本",
+        "items": ["零事故安全目标", "年均40小时培训", "社区公益投入", "公平劳工标准"]
+      },
+      "governance": {
+        "title": "公司治理",
+        "subtitle": "透明运营",
+        "items": ["合规管理体系", "ESG报告披露", "风险管理体系", "零容忍腐败"]
+      }
+    },
+    "goals": {
+      "label": "目标",
+      "title": "可持续发展目标",
+      "subtitle": "我们的碳中和路线图",
+      "items": [
+        { "year": "2025", "goal": "碳排放强度降低20%", "status": "进行中" },
+        { "year": "2030", "goal": "可再生能源使用达50%", "status": "已规划" },
+        { "year": "2040", "goal": "近零碳排放运营", "status": "目标" },
+        { "year": "2050", "goal": "全面实现碳中和", "status": "愿景" }
+      ]
+    },
+    "environmental": {
+      "label": "环境责任",
+      "title": "环境责任",
+      "subtitle": "积极应对气候变化，推动绿色低碳转型",
+      "imageTitle": "绿色制造",
+      "imageDesc": "太阳能、风能等可再生能源驱动生产",
+      "initiatives": [
+        { "title": "碳中和目标", "description": "承诺2050年实现碳中和，持续降低碳排放强度" },
+        { "title": "水资源管理", "description": "循环利用率达95%以上，减少新鲜水消耗" },
+        { "title": "循环经济", "description": "废钢回收利用率超过90%，推动资源循环利用" },
+        { "title": "绿色能源", "description": "30%电力来自可再生能源，持续扩大清洁能源使用" }
+      ]
+    },
+    "social": {
+      "label": "社会责任",
+      "title": "社会责任",
+      "subtitle": "以人为本，共建和谐社会",
+      "imageTitle": "员工发展",
+      "imageDesc": "完善的安全培训体系，保障每一位员工",
+      "initiatives": [
+        { "title": "员工安全", "description": "零事故目标，完善的安全培训体系和防护措施" },
+        { "title": "技能培训", "description": "年均培训时长40小时/人，提升员工专业能力" },
+        { "title": "社区贡献", "description": "每年投入社区发展项目，支持当地教育和医疗" },
+        { "title": "公平贸易", "description": "遵守国际劳工标准，保障供应链各环节权益" }
+      ]
+    },
+    "governance": {
+      "label": "公司治理",
+      "title": "公司治理",
+      "subtitle": "规范运作，透明高效",
+      "imageTitle": "合规透明",
+      "imageDesc": "完善的治理体系，接受各方监督",
+      "initiatives": [
+        { "title": "合规经营", "description": "严格遵守国内外法律法规，建立完善的合规体系" },
+        { "title": "透明披露", "description": "定期发布ESG报告，接受第三方审计验证" },
+        { "title": "风险管理", "description": "全面的风险识别和应对机制，确保业务连续性" },
+        { "title": "商业道德", "description": "零容忍腐败政策，维护公平竞争的市场环境" }
+      ]
+    },
+    "report": {
+      "title": "ESG报告下载",
+      "description": "了解我们在可持续发展方面的详细进展和未来规划",
+      "buttons": {
+        "2023": "2023年度ESG报告",
+        "2022": "2022年度ESG报告"
+      }
+    }
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "solutions": "Solutions",
+    "about": "À Propos",
+    "news": "Actualités",
+    "contact": "Contact",
+    "technology": "Technologie",
+    "esg": "ESG",
+    "getQuote": "Demander un Devis"
+  },
+  "hero": {
+    "badge": "La Confiance des Entreprises Sidérurgiques Mondiales",
+    "title": "Tubes et Tôles en Acier",
+    "titleHighlight": "Gestion de la Chaîne d'Approvisionnement",
+    "description": "Renforcer l'Industrie · Stimuler une Croissance de Qualité — Votre Partenaire de Confiance en Chaîne d'Approvisionnement de Tubes et Tôles en Acier.",
+    "exploreProducts": "Explorer les Produits",
+    "contactSales": "Contacter les Ventes",
+    "scroll": "DÉFILER"
+  },
+  "stats": {
+    "serviceCompanies": "Entreprises Servies",
+    "exportVolume": "Volume d'Exportation",
+    "exportUnit": "M",
+    "countries": "Pays et Régions",
+    "countryUnit": "",
+    "buyers": "Acheteurs de Qualité",
+    "years": "Années d'Expérience",
+    "tons": "Tonnes Livrées par Mois",
+    "satisfaction": "Satisfaction Client"
+  },
+  "products": {
+    "sectionLabel": "Nos Produits",
+    "title": "Solutions de Chaîne d'Approvisionnement de Tubes et Tôles en Acier",
+    "description": "Fourniture de tubes en acier, tôles et approvisionnement en matériaux en vrac avec des entrepôts de supervision de chaîne d'approvisionnement intégrés, aidant les entreprises sidérurgiques mondiales à opérer efficacement.",
+    "learnMore": "En Savoir Plus",
+    "items": {
+      "galvanizedSteel": {
+        "title": "Tubes en Acier",
+        "description": "Gamme complète comprenant les tubes galvanisés, tubes ERW, tubes SSAW, répondant à divers besoins pour le transport de fluides, oléoducs et gazoducs, et structures de construction.",
+        "badge": "Produits Principaux"
+      },
+      "steelBillets": {
+        "title": "Tôles en Acier",
+        "description": "Y compris les tôles laminées à chaud, tôles laminées à froid, tôles galvanisées, etc., d'excellente qualité pour divers projets d'ingénierie.",
+        "badge": "Produits Essentiels"
+      },
+      "prePaintedSteel": {
+        "title": "Billettes en Acier",
+        "description": "Billettes en acier coulées en continu de haute qualité conformes aux normes internationales, fournissant une garantie fiable de matières premières pour le traitement de l'acier.",
+        "badge": "Matières Premières"
+      },
+      "supplyChain": {
+        "title": "Services de Chaîne d'Approvisionnement",
+        "description": "Approvisionnement en matériaux principaux pour projets, commerce de matériaux en vrac et entrepôts de supervision de chaîne d'approvisionnement, offrant des solutions complètes pour les entreprises sidérurgiques mondiales.",
+        "badge": "Services Essentiels"
+      }
+    },
+    "specs": {
+      "zincCoating": "Revêtement de Zinc : Z80-Z275",
+      "thickness": "Épaisseur de Paroi : 2.0-20mm",
+      "width": "Diamètre du Tube : DN20-DN2000",
+      "size": "Épaisseur de Tôle : 0.5-25mm",
+      "grade": "Matériau : Q235/Q355/API 5L",
+      "length": "Longueur : 6-12m",
+      "coating": "Surface : Galvanisé/3PE/PP",
+      "colors": "Revêtement : PE/SMP/PVDF",
+      "globalShipping": "Expédition Mondiale",
+      "customsClearance": "Dédouanement",
+      "qualityInspection": "Inspection Qualité"
+    }
+  },
+  "about": {
+    "sectionLabel": "À Propos de Luxi Supply Chain",
+    "title": "À Propos de Nous",
+    "subtitle": "Luxi (Liaocheng) Supply Chain Management Co., Ltd.",
+    "welcome": "Bienvenue chez Luxi Supply Chain",
+    "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. a été établie à Liaocheng, Province du Shandong. En s'appuyant sur la solide base locale de l'industrie des tubes et tôles en acier, nous nous concentrons sur la création de valeur dans la chaîne industrielle. L'entreprise se spécialise dans l'approvisionnement en tubes et tôles en acier et les services de commerce de matériaux en vrac, équipée d'entrepôts de supervision de chaîne d'approvisionnement, fournissant des solutions de chaîne d'approvisionnement efficaces et fiables aux entreprises sidérurgiques mondiales et favorisant le développement de qualité de l'industrie.",
+    "established": "Établie à Liaocheng",
+    "tabs": {
+      "company": "Entreprise",
+      "culture": "Culture",
+      "certificates": "Certificats",
+      "whyUs": "Pourquoi Nous Choisir"
+    },
+    "company": {
+      "intro": "Profil de l'Entreprise",
+      "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. est une entreprise professionnelle spécialisée dans les services de chaîne d'approvisionnement de tubes et tôles en acier. Basée à Liaocheng, Province du Shandong, nous avons établi un système de services intégré complet couvrant les achats, l'entreposage, la logistique et les ventes.",
+      "factory": {
+        "title": "Échelle de Production",
+        "employees": "Employés",
+        "employeesValue": "200+",
+        "technicians": "Techniciens",
+        "techniciansValue": "30+",
+        "output": "Production Annuelle",
+        "outputValue": "500K Tonnes",
+        "lines": "Lignes de Production",
+        "linesValue": "8 Lignes"
+      },
+      "products": {
+        "title": "Produits Principaux",
+        "items": [
+          "Tubes galvanisés, tubes ERW, tubes SSAW",
+          "Tôles laminées à chaud, tôles laminées à froid, tôles galvanisées",
+          "Billettes en acier et divers produits de transformation approfondie de l'acier"
+        ]
+      },
+      "applications": {
+        "title": "Applications",
+        "items": [
+          "Transport de fluides et oléoducs et gazoducs",
+          "Construction industrielle et civile",
+          "Installations agricoles et de transport",
+          "Génie des structures en acier"
+        ]
+      },
+      "export": {
+        "title": "Aperçu des Exportations",
+        "regions": "Régions d'Exportation",
+        "regionsValue": "30+ Pays",
+        "projects": "Projets",
+        "projectsValue": "100+ Projets",
+        "customers": "Clients",
+        "customersValue": "500+ Entreprises"
+      }
+    },
+    "culture": {
+      "title": "Culture d'Entreprise",
+      "vision": {
+        "label": "Vision d'Entreprise",
+        "title": "Basés sur l'Industrie Sidérurgique, au Service de la Construction Mondiale",
+        "desc": "Basés sur l'industrie sidérurgique, nous représentons la fabrication chinoise, livrant des produits et services de qualité dans les endroits du monde qui ont besoin de construction, et nous efforçant de devenir un fournisseur de services sidérurgiques respecté."
+      },
+      "mission": {
+        "label": "Mission d'Entreprise",
+        "title": "Accompagner les Partenaires, Satisfaire les Employés",
+        "desc": "Le succès du client est notre seul critère pour mesurer le succès. Centrés sur l'humain, offrant aux employés une plateforme de qualité pour exprimer leurs talents, permettant aux employés à différents postes de créer des vies merveilleuses."
+      },
+      "values": {
+        "label": "Valeurs Fondamentales",
+        "customerFirst": {
+          "title": "Client d'Abord",
+          "desc": "Les clients sont les créateurs de notre vie, toujours centrés sur le client, et les besoins des clients sont notre quête inébranlable."
+        },
+        "selfDiscipline": {
+          "title": "Autodiscipline",
+          "desc": "Apprentissage continu et amélioration de soi, en utilisant les critères de bénéfice pour autrui comme point de départ pour agir."
+        },
+        "dedication": {
+          "title": "Dévouement",
+          "desc": "Considérer la situation globale, quels que soient les gains ou les pertes personnels, maintenir une attitude positive et optimiste, se dépasser continuellement et améliorer les performances."
+        }
+      },
+      "philosophy": {
+        "label": "Philosophie d'Entreprise",
+        "title": "Intégrité dans le Cœur, Bénéfice pour les Gens",
+        "desc": "Traiter les gens avec sincérité, faire des choses justes, centré sur l'humain, gestion lean, apportant les meilleurs produits, services et avantages aux partenaires, créant de la valeur sociale et réalisant sa propre valeur."
+      },
+      "spirit": {
+        "label": "Esprit d'Entreprise",
+        "title": "Vigilants en Paix, S'Améliorer en Permanence",
+        "desc": "Être préparé au danger en temps de paix, penser donc préparé, préparé donc en sécurité ; maintenir toujours la vitalité, avoir un fort sens de la compétition, innover continuellement, ne craindre aucune difficulté, être tenace et courageux, s'efforcer avec ardeur."
+      }
+    },
+    "certificates": {
+      "title": "Certificats",
+      "subtitle": "Certification Qualité · Normes Internationales",
+      "items": [
+        { "name": "ISO 9001", "desc": "Système de Management de la Qualité" },
+        { "name": "ISO 14001", "desc": "Système de Management Environnemental" },
+        { "name": "CE", "desc": "Sécurité des Produits UE" },
+        { "name": "API 5L", "desc": "Certification Tubes de Transport" },
+        { "name": "API 5CT", "desc": "Casing & Tubing" },
+        { "name": "SGS", "desc": "Inspection Tierce Partie" }
+      ]
+    },
+    "whyUs": {
+      "title": "Pourquoi Nous Choisir",
+      "subtitle": "9 Avantages Clés",
+      "items": [
+        {
+          "num": "01",
+          "title": "Services Intégrés de Chaîne d'Approvisionnement",
+          "desc": "L'activité couvre l'ensemble de la chaîne des achats, de la production, de l'entreposage, de la logistique et des ventes, fournissant des solutions complètes aux clients."
+        },
+        {
+          "num": "02",
+          "title": "Sources de Matières Premières de Qualité",
+          "desc": "Les matières premières sont sourcées auprès d'entreprises sidérurgiques nationales renommées, chaque processus suivant strictement le système de management ISO."
+        },
+        {
+          "num": "03",
+          "title": "Multiples Certifications Internationales",
+          "desc": "Détenteur de certifications internationales ISO, CE, API, SGS et autres, soutenant l'inspection tierce partie avec une qualité garantie."
+        },
+        {
+          "num": "04",
+          "title": "Prix et Qualité Équilibrés",
+          "desc": "Axé sur la vente en gros avec de faibles marges, fournissant des produits très rentables et transmettant les avantages aux partenaires."
+        },
+        {
+          "num": "05",
+          "title": "Service en Ligne 24/7",
+          "desc": "Fournissant des services de consultation et de devis pour les clients à toute heure avec une réponse rapide et une communication fluide."
+        },
+        {
+          "num": "06",
+          "title": "Support de Commandes Flexibles",
+          "desc": "Support des commandes en petits lots et des exigences personnalisées, répondant aux besoins d'achat de différentes échelles et types."
+        },
+        {
+          "num": "07",
+          "title": "Riche Expérience dans l'Industrie",
+          "desc": "Des années d'expérience approfondie dans l'industrie des tubes et tôles en acier, accumulant une riche expertise et des connaissances techniques professionnelles."
+        },
+        {
+          "num": "08",
+          "title": "Large Base de Clients",
+          "desc": "Produits exportés dans plus de 30 pays et régions, servant plus de 500 entreprises avec des clients dans le monde entier."
+        },
+        {
+          "num": "09",
+          "title": "Cas de Projets Réussis",
+          "desc": "Participé à plus de 100 projets d'ingénierie à grande échelle, accumulant une riche expérience en service de projets et une bonne réputation dans l'industrie."
+        }
+      ]
+    },
+    "facilities": {
+      "title": "Entrepôt de Supervision de Chaîne d'Approvisionnement",
+      "description": "Entrepôts de supervision professionnels fournissant des services de stockage et de logistique sûrs et pratiques pour le commerce de matériaux en vrac"
+    },
+    "team": {
+      "title": "Équipe d'Experts",
+      "description": "Équipe professionnelle avec des années d'expérience dans l'industrie des tubes et tôles en acier, fournissant un support de service complet"
+    },
+    "features": {
+      "isoCertified": {
+        "title": "Certification Qualité ISO",
+        "description": "Système strict de management de la qualité garantissant que chaque expédition répond aux normes internationales."
+      },
+      "globalLogistics": {
+        "title": "Réseau de Logistique Mondial",
+        "description": "Couverture mondiale garantissant des livraisons sûres et rapides aux clients du monde entier."
+      },
+      "support": {
+        "title": "Support Professionnel",
+        "description": "Équipe de service client expérimentée fournissant une consultation professionnelle et un service après-vente de bout en bout."
+      },
+      "customSolutions": {
+        "title": "Solutions Personnalisées",
+        "description": "Plans d'achat et solutions de chaîne d'approvisionnement adaptés aux besoins des clients."
+      }
+    }
+  },
+  "gallery": {
+    "sectionLabel": "Entrepôt et Logistique",
+    "title": "Entrepôt de Supervision de Chaîne d'Approvisionnement Moderne"
+  },
+  "testimonials": {
+    "sectionLabel": "Témoignages",
+    "title": "La Confiance des Clients Mondiaux",
+    "items": {
+      "michael": {
+        "quote": "Les produits de tubes en acier de Luxi Supply Chain ont une qualité stable et des livraisons ponctuelles. Ils sont notre partenaire de confiance à long terme.",
+        "author": "M. Zhang",
+        "role": "Directeur des Achats",
+        "company": "Société d'Ingénierie de Construction"
+      },
+      "sarah": {
+        "quote": "Le service d'entrepôt de supervision de chaîne d'approvisionnement a considérablement réduit nos coûts de stockage et amélioré significativement l'efficacité logistique.",
+        "author": "Mme Wang",
+        "role": "Responsable de la Chaîne d'Approvisionnement",
+        "company": "Groupe Commercial"
+      },
+      "ahmed": {
+        "quote": "De la demande à la livraison, tout était professionnel et efficace, répondant parfaitement à nos besoins d'achat de matériaux en vrac.",
+        "author": "M. Li",
+        "role": "Directeur Général",
+        "company": "Société de Commerce Extérieur"
+      }
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contactez-Nous",
+    "title": "Discutons de Vos Besoins",
+    "description": "Que vous ayez besoin de devis pour tubes et tôles en acier, de consultation en solutions de chaîne d'approvisionnement, ou que vous souhaitiez explorer des opportunités de coopération, notre équipe est prête à vous assister.",
+    "info": {
+      "headquarters": {
+        "title": "Adresse de l'Entreprise",
+        "address": "Ville de Liaocheng, Province du Shandong\nEntrepôt de Supervision de Chaîne d'Approvisionnement Luxi"
+      },
+      "email": {
+        "title": "Envoyez-nous un Email",
+        "addresses": "sales@luxi-supply.com\nsupport@luxi-supply.com"
+      },
+      "phone": {
+        "title": "Appelez-nous",
+        "numbers": "Fixe: +86 635 2180898\nMobile: +86 15063550004"
+      }
+    },
+    "form": {
+      "name": "Nom Complet",
+      "namePlaceholder": "Jean Dupont",
+      "email": "Adresse Email",
+      "emailPlaceholder": "jean@entreprise.com",
+      "company": "Nom de l'Entreprise",
+      "companyPlaceholder": "Votre Entreprise S.A.",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de vos besoins...",
+      "send": "Envoyer le Message",
+      "sent": "Message Envoyé !"
+    }
+  },
+  "cta": {
+    "title": "Prêt à Commencer ?",
+    "description": "Contactez notre équipe aujourd'hui pour des devis de tubes et tôles en acier et une consultation en solutions de chaîne d'approvisionnement.",
+    "requestQuote": "Demander un Devis",
+    "viewProducts": "Voir les Produits"
+  },
+  "footer": {
+    "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. - Votre partenaire de confiance en chaîne d'approvisionnement de tubes et tôles en acier.",
+    "links": {
+      "products": "Produits",
+      "company": "Entreprise",
+      "support": "Support"
+    },
+    "productLinks": ["Tubes en Acier", "Tôles en Acier", "Billettes en Acier", "Services de Chaîne d'Approvisionnement"],
+    "companyLinks": ["À Propos de Nous", "Services", "Actualités et Mises à Jour", "Contactez-Nous"],
+    "supportLinks": ["Demander un Devis", "FAQ", "Support Technique", "Conditions de Coopération"],
+    "copyright": "© 2024 Luxi (Liaocheng) Supply Chain Management Co., Ltd. Tous droits réservés.",
+    "certifications": {
+      "iso9001": "ISO 9001:2015 Certifié",
+      "iso14001": "ISO 14001:2015 Certifié"
+    }
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文",
+    "fr": "Français"
+  }
+}
