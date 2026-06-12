@@ -1,0 +1,474 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "solutions": "Soluciones",
+    "about": "Nosotros",
+    "news": "Noticias",
+    "contact": "Contacto",
+    "technology": "Tecnología",
+    "esg": "ESG",
+    "getQuote": "Solicitar Cotización"
+  },
+  "hero": {
+    "badge": "Confianza de Empresas Siderúrgicas Globales",
+    "title": "Tubos y Placas de Acero",
+    "titleHighlight": "Gestión de la Cadena de Suministro",
+    "description": "Impulsando la Industria · Impulsando el Crecimiento de Calidad — Su Socio de Confianza en la Cadena de Suministro de Tubos y Placas de Acero.",
+    "exploreProducts": "Explorar Productos",
+    "contactSales": "Contactar Ventas",
+    "scroll": "DESPLAZAR"
+  },
+  "stats": {
+    "serviceCompanies": "Empresas Servidas",
+    "exportVolume": "Volumen de Exportación",
+    "exportUnit": "M",
+    "countries": "Países y Regiones",
+    "countryUnit": "",
+    "buyers": "Compradores de Calidad",
+    "years": "Años de Experiencia",
+    "tons": "Toneladas Entregadas Mensualmente",
+    "satisfaction": "Satisfacción del Cliente"
+  },
+  "products": {
+    "sectionLabel": "Nuestros Productos",
+    "title": "Soluciones de Cadena de Suministro de Tubos y Placas de Acero",
+    "description": "Proporcionando tubos de acero, placas y suministro de materiales a granel con almacenes de supervisión de cadena de suministro integrados, ayudando a las empresas siderúrgicas globales a operar de manera eficiente.",
+    "learnMore": "Más Información",
+    "items": {
+      "galvanizedSteel": {
+        "title": "Tubos de Acero",
+        "description": "Gama completa que incluye tubos galvanizados, tubos ERW, tubos SSAW, satisfaciendo diversas necesidades para transporte de fluidos, oleoductos y gasoductos, y estructuras de construcción.",
+        "badge": "Productos Principales"
+      },
+      "steelBillets": {
+        "title": "Placas de Acero",
+        "description": "Incluyendo placas laminadas en caliente, placas laminadas en frío, placas galvanizadas, etc., con excelente calidad para diversos proyectos de ingeniería.",
+        "badge": "Productos Principales"
+      },
+      "prePaintedSteel": {
+        "title": "Palanquillas de Acero",
+        "description": "Palanquillas de acero coladas continuamente de alta calidad que cumplen con estándares internacionales, proporcionando una garantía fiable de materia prima para el procesamiento de acero.",
+        "badge": "Materias Primas"
+      },
+      "supplyChain": {
+        "title": "Servicios de Cadena de Suministro",
+        "description": "Suministro de materiales principales para proyectos, comercio de materiales a granel y almacenes de supervisión de cadena de suministro, ofreciendo soluciones integrales para empresas siderúrgicas globales.",
+        "badge": "Servicios Principales"
+      }
+    },
+    "specs": {
+      "zincCoating": "Recubrimiento de Zinc: Z80-Z275",
+      "thickness": "Espesor de Pared: 2.0-20mm",
+      "width": "Diámetro del Tubo: DN20-DN2000",
+      "size": "Espesor de Placa: 0.5-25mm",
+      "grade": "Material: Q235/Q355/API 5L",
+      "length": "Longitud: 6-12m",
+      "coating": "Superficie: Galvanizado/3PE/PP",
+      "colors": "Recubrimiento: PE/SMP/PVDF",
+      "globalShipping": "Envío Global",
+      "customsClearance": "Despacho de Aduanas",
+      "qualityInspection": "Inspección de Calidad"
+    }
+  },
+  "about": {
+    "sectionLabel": "Acerca de Luxi Supply Chain",
+    "title": "Acerca de Nosotros",
+    "subtitle": "Luxi (Liaocheng) Supply Chain Management Co., Ltd.",
+    "welcome": "Bienvenido a Luxi Supply Chain",
+    "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. fue establecida en Liaocheng, Provincia de Shandong. Apoyándonos en la profunda base local de la industria de tubos y placas de acero, nos enfocamos en crear valor en la cadena industrial. La empresa se especializa en el suministro de tubos y placas de acero y servicios de comercio de materiales a granel, equipada con almacenes de supervisión de cadena de suministro, proporcionando soluciones de cadena de suministro eficientes y fiables a empresas siderúrgicas globales y promoviendo el desarrollo de alta calidad de la industria.",
+    "established": "Establecida en Liaocheng",
+    "tabs": {
+      "company": "Empresa",
+      "culture": "Cultura",
+      "certificates": "Certificados",
+      "whyUs": "Por Qué Elegirnos"
+    },
+    "company": {
+      "intro": "Perfil de la Empresa",
+      "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. es una empresa profesional especializada en servicios de cadena de suministro de tubos y placas de acero. Con sede en Liaocheng, Provincia de Shandong, hemos establecido un sistema integral de servicios que cubre adquisiciones, almacenamiento, logística y ventas.",
+      "factory": {
+        "title": "Escala de Producción",
+        "employees": "Empleados",
+        "employeesValue": "200+",
+        "technicians": "Técnicos",
+        "techniciansValue": "30+",
+        "output": "Producción Anual",
+        "outputValue": "500K Toneladas",
+        "lines": "Líneas de Producción",
+        "linesValue": "8 Líneas"
+      },
+      "products": {
+        "title": "Productos Principales",
+        "items": [
+          "Tubos galvanizados, tubos ERW, tubos SSAW",
+          "Placas laminadas en caliente, placas laminadas en frío, placas galvanizadas",
+          "Palanquillas de acero y diversos productos de procesamiento profundo de acero"
+        ]
+      },
+      "applications": {
+        "title": "Aplicaciones",
+        "items": [
+          "Transporte de fluidos y oleoductos y gasoductos",
+          "Construcción industrial y civil",
+          "Instalaciones agrícolas y de transporte",
+          "Ingeniería de estructuras de acero"
+        ]
+      },
+      "export": {
+        "title": "Resumen de Exportación",
+        "regions": "Regiones de Exportación",
+        "regionsValue": "30+ Países",
+        "projects": "Proyectos",
+        "projectsValue": "100+ Proyectos",
+        "customers": "Clientes",
+        "customersValue": "500+ Empresas"
+      }
+    },
+    "culture": {
+      "title": "Cultura Empresarial",
+      "vision": {
+        "label": "Visión Empresarial",
+        "title": "Basados en la Industria Siderúrgica, Sirviendo a la Construcción Global",
+        "desc": "Basados en la industria siderúrgica, representamos la manufactura china, entregando productos y servicios de calidad a lugares del mundo que necesitan construcción, y esforzándonos por convertirnos en un proveedor de servicios siderúrgicos respetado."
+      },
+      "mission": {
+        "label": "Misión Empresarial",
+        "title": "Impulsando Socios, Satisfaciendo Empleados",
+        "desc": "El éxito del cliente es nuestro único criterio para medir el éxito. Centrados en las personas, proporcionando a los empleados una plataforma de alta calidad para demostrar sus talentos, permitiendo a los empleados en diferentes posiciones crear vidas maravillosas."
+      },
+      "values": {
+        "label": "Valores Fundamentales",
+        "customerFirst": {
+          "title": "Cliente Primero",
+          "desc": "Los clientes son los creadores de nuestra vida, siempre centrados en el cliente, y las necesidades del cliente son nuestra búsqueda inquebrantable."
+        },
+        "selfDiscipline": {
+          "title": "Autodisciplina",
+          "desc": "Aprendizaje continuo y superación personal, utilizando los estándares de beneficiar a los demás como punto de partida para hacer las cosas."
+        },
+        "dedication": {
+          "title": "Dedicación",
+          "desc": "Considerar la situación general, sin importar las ganancias o pérdidas personales, mantener una actitud positiva y optimista, superarnos continuamente y mejorar el desempeño."
+        }
+      },
+      "philosophy": {
+        "label": "Filosofía Empresarial",
+        "title": "Integridad en el Corazón, Beneficios para las Personas",
+        "desc": "Tratar a las personas con sinceridad, hacer cosas justas, centrado en las personas, gestión esbelta, trayendo los mejores productos, servicios y beneficios a los socios, creando valor social y realizando el valor propio."
+      },
+      "spirit": {
+        "label": "Espíritu Emprendedor",
+        "title": "Vigilantes en Paz, Superándose Constantemente",
+        "desc": "Estar preparados para el peligro en tiempos de paz, pensando entonces preparados, preparados entonces seguros; mantener siempre la vitalidad, tener un fuerte sentido de competencia, innovar continuamente, no temer a las dificultades, ser tenaces y valientes, esforzarse con ahínco."
+      }
+    },
+    "certificates": {
+      "title": "Certificados",
+      "subtitle": "Certificación de Calidad · Estándares Internacionales",
+      "items": [
+        { "name": "ISO 9001", "desc": "Sistema de Gestión de Calidad" },
+        { "name": "ISO 14001", "desc": "Sistema de Gestión Ambiental" },
+        { "name": "CE", "desc": "Seguridad de Productos de la UE" },
+        { "name": "API 5L", "desc": "Certificación de Tuberías" },
+        { "name": "API 5CT", "desc": "Revestimiento y Tubería" },
+        { "name": "SGS", "desc": "Inspección de Terceros" }
+      ]
+    },
+    "whyUs": {
+      "title": "Por Qué Elegirnos",
+      "subtitle": "9 Ventajas Fundamentales",
+      "items": [
+        {
+          "num": "01",
+          "title": "Servicios Integrados de Cadena de Suministro",
+          "desc": "El negocio cubre toda la cadena de adquisiciones, producción, almacenamiento, logística y ventas, proporcionando soluciones integrales a los clientes."
+        },
+        {
+          "num": "02",
+          "title": "Fuentes de Materia Prima de Calidad",
+          "desc": "Las materias primas se obtienen de conocidas empresas siderúrgicas nacionales, con cada proceso siguiendo estrictamente el sistema de gestión ISO."
+        },
+        {
+          "num": "03",
+          "title": "Múltiples Certificaciones Internacionales",
+          "desc": "Poseedor de certificaciones internacionales ISO, CE, API, SGS y otras, apoyando inspección de terceros con calidad garantizada."
+        },
+        {
+          "num": "04",
+          "title": "Precio y Calidad Equilibrados",
+          "desc": "Enfocados en el mayorista con márgenes bajos, proporcionando productos de alta relación calidad-precio y transmitiendo beneficios a los socios."
+        },
+        {
+          "num": "05",
+          "title": "Servicio en Línea 24/7",
+          "desc": "Proporcionando servicios de consultoría y cotización para clientes las 24 horas del día con respuesta oportuna y comunicación fluida."
+        },
+        {
+          "num": "06",
+          "title": "Soporte de Pedidos Flexibles",
+          "desc": "Apoyo a pedidos de pequeños lotes y requisitos personalizados, satisfaciendo necesidades de adquisición de diferentes escalas y tipos."
+        },
+        {
+          "num": "07",
+          "title": "Rica Experiencia en la Industria",
+          "desc": "Años de profunda experiencia en la industria de tubos y placas de acero, acumulando rica experiencia y conocimiento técnico profesional."
+        },
+        {
+          "num": "08",
+          "title": "Amplia Base de Clientes",
+          "desc": "Productos exportados a más de 30 países y regiones, sirviendo a más de 500 empresas con clientes en todo el mundo."
+        },
+        {
+          "num": "09",
+          "title": "Casos de Proyectos Exitosos",
+          "desc": "Participado en más de 100 proyectos de ingeniería a gran escala, acumulando rica experiencia en servicio de proyectos y buena reputación en la industria."
+        }
+      ]
+    },
+    "facilities": {
+      "title": "Almacén de Supervisión de Cadena de Suministro",
+      "description": "Almacenes de supervisión profesionales que proporcionan servicios de almacenamiento y logística seguros y convenientes para el comercio de materiales a granel"
+    },
+    "team": {
+      "title": "Equipo Experto",
+      "description": "Equipo profesional con años de experiencia en la industria de tubos y placas de acero, proporcionando soporte de servicio integral"
+    },
+    "features": {
+      "isoCertified": {
+        "title": "Certificación de Calidad ISO",
+        "description": "Estricto sistema de gestión de calidad asegurando que cada envío cumple con los estándares internacionales."
+      },
+      "globalLogistics": {
+        "title": "Red de Logística Global",
+        "description": "Cobertura global asegurando entregas seguras y rápidas a clientes en todo el mundo."
+      },
+      "support": {
+        "title": "Soporte Profesional",
+        "description": "Equipo de servicio al cliente experimentado que proporciona consultoría profesional y servicio postventa de proceso completo."
+      },
+      "customSolutions": {
+        "title": "Soluciones Personalizadas",
+        "description": "Planes de adquisición y soluciones de cadena de suministro adaptados según las necesidades del cliente."
+      }
+    }
+  },
+  "gallery": {
+    "sectionLabel": "Almacén y Logística",
+    "title": "Almacén de Supervisión de Cadena de Suministro Moderno"
+  },
+  "testimonials": {
+    "sectionLabel": "Testimonios",
+    "title": "Confianza de Clientes Globales",
+    "items": {
+      "michael": {
+        "quote": "Los productos de tubos de acero de Luxi Supply Chain tienen calidad estable y entregas puntuales. Son nuestro socio de confianza a largo plazo.",
+        "author": "Sr. Zhang",
+        "role": "Director de Adquisiciones",
+        "company": "Constructora de Ingeniería S.A."
+      },
+      "sarah": {
+        "quote": "El servicio de almacén de supervisión de cadena de suministro ha reducido enormemente nuestros costos de almacenamiento y mejorado significativamente la eficiencia logística.",
+        "author": "Sra. Wang",
+        "role": "Gerente de Cadena de Suministro",
+        "company": "Grupo Comercial"
+      },
+      "ahmed": {
+        "quote": "Desde la consulta hasta la entrega, todo fue profesional y eficiente, satisfaciendo perfectamente nuestras necesidades de adquisición de materiales a granel.",
+        "author": "Sr. Li",
+        "role": "Gerente General",
+        "company": "Comercializadora Exterior S.A."
+      }
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contáctenos",
+    "title": "Hablemos de Sus Requisitos",
+    "description": "Ya sea que necesite cotizaciones de tubos y placas de acero, consultoría de soluciones de cadena de suministro, o desee explorar oportunidades de cooperación, nuestro equipo está listo para asistirle.",
+    "info": {
+      "headquarters": {
+        "title": "Dirección de la Empresa",
+        "address": "Sala 17A, Centro Xingguang Rongfu\nNo. 1 Carretera Huangshan, Zona de Desarrollo Económico y Tecnológico de Liaocheng\nProvincia de Shandong, China"
+      },
+      "email": {
+        "title": "Correo Electrónico",
+        "addresses": "15063550004@139.com\nniucong217@163.com"
+      },
+      "phone": {
+        "title": "Llámanos",
+        "numbers": "Fijo: +86 635 2180898\nMóvil: +86 15063550004"
+      }
+    },
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Juan Pérez",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "juan@empresa.com",
+      "company": "Nombre de la Empresa",
+      "companyPlaceholder": "Su Empresa S.A.",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntenos sobre sus requisitos...",
+      "send": "Enviar Mensaje",
+      "sent": "¡Mensaje Enviado!"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar?",
+    "description": "Contacte a nuestro equipo hoy para cotizaciones de tubos y placas de acero y consultoría de soluciones de cadena de suministro.",
+    "requestQuote": "Solicitar Cotización",
+    "viewProducts": "Ver Productos"
+  },
+  "footer": {
+    "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. - Su socio de confianza en la cadena de suministro de tubos y placas de acero.",
+    "links": {
+      "products": "Productos",
+      "company": "Empresa",
+      "support": "Soporte"
+    },
+    "productLinks": ["Tubos de Acero", "Placas de Acero", "Palanquillas de Acero", "Servicios de Cadena de Suministro"],
+    "companyLinks": ["Acerca de Nosotros", "Servicios", "Noticias y Actualizaciones", "Contáctenos"],
+    "supportLinks": ["Solicitar Cotización", "Preguntas Frecuentes", "Soporte Técnico", "Términos de Cooperación"],
+    "copyright": "© 2024 Luxi (Liaocheng) Supply Chain Management Co., Ltd. Todos los derechos reservados.",
+    "certifications": {
+      "iso9001": "ISO 9001:2015 Certificado",
+      "iso14001": "ISO 14001:2015 Certificado"
+    }
+  },
+"productCategories": {
+    "all": "Todos",
+    "pipe": "Tuberías de Acero",
+    "section": "Perfiles de Acero",
+    "plate": "Placas de Acero"
+  },
+  "productList": {
+    "gi-pipe-round": {
+      "name": "Tubo Redondo Galvanizado",
+      "desc": "Tubo redondo galvanizado en caliente con superficie lisa, capa de zinc uniforme y excelente resistencia a la corrosión.",
+      "category": "Tubería de Acero",
+      "categoryKey": "pipe",
+      "specs": [
+        "DN15-DN200",
+        "Espesor: 0.8-12mm",
+        "Material: Q195/Q235/Q345"
+      ]
+    },
+    "gi-pipe-square": {
+      "name": "Tubo Cuadrado Galvanizado",
+      "desc": "Tubo cuadrado galvanizado en caliente con alta resistencia y buena tenacidad.",
+      "category": "Tubería de Acero",
+      "categoryKey": "pipe",
+      "specs": [
+        "15×15-400×400mm",
+        "Espesor: 0.8-16mm",
+        "Material: Q195/Q235/Q345"
+      ]
+    },
+    "erw-pipe": {
+      "name": "Tubo ERW",
+      "desc": "Tubo soldado de alta frecuencia con alta calidad de soldadura y buena precisión dimensional.",
+      "category": "Tubería de Acero",
+      "categoryKey": "pipe",
+      "specs": [
+        "DN15-DN600",
+        "Espesor: 0.5-20mm",
+        "Norma: ASTM/EN/JIS"
+      ]
+    },
+    "seamless-pipe": {
+      "name": "Tubo Sin Costura",
+      "desc": "Tubo de acero sin costura, sin soldadura, gran capacidad de presión.",
+      "category": "Tubería de Acero",
+      "categoryKey": "pipe",
+      "specs": [
+        "OD: 10-720mm",
+        "Espesor: 1-80mm",
+        "Norma: API 5L/ASTM A106"
+      ]
+    },
+    "square-tube": {
+      "name": "Tubo Cuadrado/Rectangular",
+      "desc": "Tubos cuadrados y rectangulares con especificaciones completas y corte a medida.",
+      "category": "Tubería de Acero",
+      "categoryKey": "pipe",
+      "specs": [
+        "10×10-500×500mm",
+        "Espesor: 0.5-20mm",
+        "Material: Q195/Q235/Q345"
+      ]
+    },
+    "steel-section": {
+      "name": "U-Channel/H-Beam/Ángulo",
+      "desc": "U-channel, H-beam y ángulo de acero con excelente calidad de material.",
+      "category": "Perfil de Acero",
+      "categoryKey": "section",
+      "specs": [
+        "U-Channel/H-Beam/Ángulo",
+        "Especificaciones Completas",
+        "Material: Q235B/Q355B"
+      ]
+    },
+    "gi-coil": {
+      "name": "Bobina de Acero Galvanizado",
+      "desc": "Bobina de acero galvanizado en caliente con fuerte adhesión de capa de zinc.",
+      "category": "Placa de Acero",
+      "categoryKey": "plate",
+      "specs": [
+        "Espesor: 0.12-6.0mm",
+        "Ancho: 600-1500mm",
+        "Zinc: Z40-Z275"
+      ]
+    },
+    "gi-sheet": {
+      "name": "Lámina de Acero Galvanizado",
+      "desc": "Lámina de acero galvanizado en caliente con buena calidad de superficie.",
+      "category": "Placa de Acero",
+      "categoryKey": "plate",
+      "specs": [
+        "Espesor: 0.12-6.0mm",
+        "Ancho: 600-1500mm",
+        "Zinc: Z40-Z275"
+      ]
+    },
+    "gi-roofing": {
+      "name": "Lámina de Techo Galvanizada",
+      "desc": "Lámina de techo ondulada galvanizada, ligera, de alta resistencia.",
+      "category": "Placa de Acero",
+      "categoryKey": "plate",
+      "specs": [
+        "Espesor: 0.13-1.0mm",
+        "Ancho: 600-1100mm",
+        "Perfil: Múltiple"
+      ]
+    },
+    "ppgi-coil": {
+      "name": "Bobina PPGI",
+      "desc": "Bobina de acero pre-pintado (PPGI) con colores ricos y fuerte resistencia meteorológica.",
+      "category": "Placa de Acero",
+      "categoryKey": "plate",
+      "specs": [
+        "Espesor: 0.12-1.5mm",
+        "Ancho: 600-1500mm",
+        "Color: Personalizado"
+      ]
+    },
+    "ppgi-roofing": {
+      "name": "Lámina de Techo PPGI",
+      "desc": "Lámina de techo pre-pintada con apariencia hermosa, durabilidad y aislamiento térmico.",
+      "category": "Placa de Acero",
+      "categoryKey": "plate",
+      "specs": [
+        "Espesor: 0.13-1.0mm",
+        "Ancho: 600-1100mm",
+        "Color: Personalizado"
+      ]
+    }
+  },
+  "productDetail": {
+    "specsTitle": "Especificaciones del Producto"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文",
+    "es": "Español"
+  }
+}

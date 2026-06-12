@@ -1,0 +1,714 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "solutions": "Solutions",
+    "about": "About",
+    "technology": "Technology",
+    "esg": "ESG",
+    "news": "News",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "hero": {
+    "badge": "Trusted by Global Steel Enterprises",
+    "title": "Steel Pipes & Plates",
+    "titleHighlight": "Supply Chain Management",
+    "description": "Empowering Industry · Driving Quality Growth — Your Trusted Steel Pipe & Plate Supply Chain Partner.",
+    "exploreProducts": "Explore Products",
+    "contactSales": "Contact Sales",
+    "scroll": "SCROLL"
+  },
+  "stats": {
+    "serviceCompanies": "Service Companies",
+    "exportVolume": "Export Volume Driven",
+    "exportUnit": "M",
+    "countries": "Countries & Regions",
+    "countryUnit": "",
+    "buyers": "Quality Buyers",
+    "years": "Years of Experience",
+    "tons": "Tons Delivered Monthly",
+    "satisfaction": "Client Satisfaction"
+  },
+  "products": {
+    "sectionLabel": "Our Products",
+    "title": "Steel Pipe & Plate Supply Chain Solutions",
+    "description": "Providing steel pipes, plates, and bulk material supply with integrated supply chain supervision warehouses, helping global steel enterprises operate efficiently.",
+    "learnMore": "Learn More",
+    "items": {
+      "galvanizedSteel": {
+        "title": "Steel Pipes",
+        "description": "Full range including galvanized pipes, ERW pipes, SSAW pipes, meeting diverse needs for fluid transportation, oil & gas pipelines, and construction structures.",
+        "badge": "Main Products"
+      },
+      "steelBillets": {
+        "title": "Steel Plates",
+        "description": "Including hot-rolled plates, cold-rolled plates, galvanized plates, etc., with excellent quality for various engineering projects.",
+        "badge": "Core Products"
+      },
+      "prePaintedSteel": {
+        "title": "Steel Billets",
+        "description": "High-quality continuous cast steel billets meeting international standards, providing reliable raw material guarantee for steel processing.",
+        "badge": "Raw Materials"
+      },
+      "supplyChain": {
+        "title": "Supply Chain Services",
+        "description": "Project main material supply, bulk material trade, and supply chain supervision warehouses, offering one-stop solutions for global steel enterprises.",
+        "badge": "Core Services"
+      }
+    },
+    "featured": {
+      "giPipeRound": {
+        "title": "Galvanized Round Pipe",
+        "description": "Hot-dip galvanized round pipe with smooth surface, uniform zinc layer, and excellent corrosion resistance.",
+        "badge": "Hot"
+      },
+      "seamlessPipe": {
+        "title": "Seamless Steel Pipe",
+        "description": "Seamless steel pipe with no weld seam, strong pressure bearing capacity, suitable for high-pressure and high-temperature environments.",
+        "badge": "Main"
+      },
+      "giCoil": {
+        "title": "Galvanized Coil",
+        "description": "Hot-dip galvanized steel coil with strong zinc layer adhesion and excellent anti-corrosion performance.",
+        "badge": "Hot"
+      },
+      "ppgiCoil": {
+        "title": "Color Coated Coil (PPGI)",
+        "description": "Pre-painted color steel coil with rich colors and strong weather resistance.",
+        "badge": "New"
+      },
+      "giRoofing": {
+        "title": "Galvanized Roofing Sheet",
+        "description": "Galvanized corrugated sheet, lightweight and high strength, waterproof and anti-corrosion.",
+        "badge": "Hot"
+      },
+      "steelSection": {
+        "title": "U-Channel/H-Beam/Angle Steel",
+        "description": "U-channel steel, H-beam, equal angle steel with excellent material quality.",
+        "badge": "Main"
+      }
+    },
+    "specs": {
+      "zincCoating": "Zinc Coating: Z80-Z275",
+      "thickness": "Wall Thickness: 2.0-20mm",
+      "width": "Pipe Diameter: DN20-DN2000",
+      "size": "Plate Thickness: 0.5-25mm",
+      "grade": "Material: Q235/Q355/API 5L",
+      "length": "Length: 6-12m",
+      "coating": "Surface: Galvanized/3PE/PP",
+      "colors": "Coating: PE/SMP/PVDF",
+      "globalShipping": "Global Shipping",
+      "customsClearance": "Customs Clearance",
+      "qualityInspection": "Quality Inspection"
+    }
+  },
+  "about": {
+    "sectionLabel": "About Luxi Supply Chain",
+    "title": "About Us",
+    "subtitle": "Luxi (Liaocheng) Supply Chain Management Co., Ltd.",
+    "welcome": "Welcome to Luxi Supply Chain",
+    "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. was established in Liaocheng, Shandong Province. Relying on the local deep foundation of the steel pipe and steel plate industry, we focus on creating value in the industrial chain. The company specializes in steel pipe and plate supply and bulk material trade services, equipped with supply chain supervision warehouses, providing efficient and reliable supply chain solutions to global steel enterprises and promoting high-quality industry development.",
+    "established": "Established in Liaocheng",
+    "tabs": {
+      "company": "Company",
+      "culture": "Culture",
+      "certificates": "Certificates",
+      "whyUs": "Why Us"
+    },
+    "company": {
+      "intro": "Company Profile",
+      "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. is a professional enterprise specializing in steel pipe and plate supply chain services. Headquartered in Liaocheng, Shandong Province, we have established a comprehensive integrated service system covering procurement, warehousing, logistics, and sales.",
+      "factory": {
+        "title": "Production Scale",
+        "employees": "Employees",
+        "employeesValue": "200+",
+        "technicians": "Technicians",
+        "techniciansValue": "30+",
+        "output": "Annual Output",
+        "outputValue": "500K Tons",
+        "lines": "Production Lines",
+        "linesValue": "8 Lines"
+      },
+      "products": {
+        "title": "Main Products",
+        "items": [
+          "Galvanized pipes, ERW pipes, SSAW pipes",
+          "Hot-rolled plates, cold-rolled plates, galvanized plates",
+          "Steel billets and various steel deep processing products"
+        ]
+      },
+      "applications": {
+        "title": "Applications",
+        "items": [
+          "Fluid transportation and oil & gas pipelines",
+          "Industrial and civil construction",
+          "Agriculture and transportation facilities",
+          "Steel structure engineering"
+        ]
+      },
+      "export": {
+        "title": "Export Overview",
+        "regions": "Export Regions",
+        "regionsValue": "30+ Countries",
+        "projects": "Projects",
+        "projectsValue": "100+ Projects",
+        "customers": "Customers",
+        "customersValue": "500+ Enterprises"
+      }
+    },
+    "culture": {
+      "title": "Enterprise Culture",
+      "vision": {
+        "label": "Enterprise Vision",
+        "title": "Based on Steel Industry, Serving Global Construction",
+        "desc": "Based on the steel industry, we represent Chinese manufacturing, delivering quality products and services to places around the world that need construction, and striving to become a respected steel service provider."
+      },
+      "mission": {
+        "label": "Enterprise Mission",
+        "title": "Empowering Partners, Delighting Employees",
+        "desc": "Customer success is our only criterion for measuring success. People-oriented, providing employees with a high-quality platform to display their talents, enabling employees at different positions to create wonderful lives."
+      },
+      "values": {
+        "label": "Core Values",
+        "customerFirst": {
+          "title": "Customer First",
+          "desc": "Customers are the creators of our life, always customer-centric, and customer needs are our unwavering pursuit."
+        },
+        "selfDiscipline": {
+          "title": "Self Discipline",
+          "desc": "Continuous learning and self-improvement, using the standards of benefiting others as the starting point for doing things."
+        },
+        "dedication": {
+          "title": "Dedication",
+          "desc": "Consider the overall situation, regardless of personal gains or losses, maintain a positive and optimistic attitude, continuously breakthrough ourselves and improve performance."
+        }
+      },
+      "philosophy": {
+        "label": "Business Philosophy",
+        "title": "Integrity in Heart, Benefits for People",
+        "desc": "Treat people with sincerity, do righteous things, people-oriented, lean management, bringing the best products, services, and benefits to partners, creating social value and realizing self-worth."
+      },
+      "spirit": {
+        "label": "Entrepreneurial Spirit",
+        "title": "Vigilant in Peace, Constantly Self-improving",
+        "desc": "Be prepared for danger in times of peace, thinking then prepared, prepared then safe; always maintain vitality, have a strong sense of competition, continuously innovate, fear no difficulties, be tenacious and brave, striving hard."
+      }
+    },
+    "certificates": {
+      "title": "Certificates",
+      "subtitle": "Quality Certification · International Standards",
+      "items": [
+        { "name": "ISO 9001", "desc": "Quality Management System" },
+        { "name": "ISO 14001", "desc": "Environmental Management System" },
+        { "name": "CE", "desc": "EU Product Safety" },
+        { "name": "API 5L", "desc": "Line Pipe Certification" },
+        { "name": "API 5CT", "desc": "Casing & Tubing" },
+        { "name": "SGS", "desc": "Third-party Inspection" }
+      ]
+    },
+    "whyUs": {
+      "title": "Why Choose Us",
+      "subtitle": "9 Core Advantages",
+      "items": [
+        {
+          "num": "01",
+          "title": "Integrated Supply Chain Services",
+          "desc": "Business covers the entire chain of procurement, production, warehousing, logistics, and sales, providing one-stop solutions for customers."
+        },
+        {
+          "num": "02",
+          "title": "Quality Raw Material Sources",
+          "desc": "Raw materials are sourced from well-known domestic steel enterprises, with every process strictly following ISO management system."
+        },
+        {
+          "num": "03",
+          "title": "Multiple International Certifications",
+          "desc": "Holding ISO, CE, API, SGS and other international certifications, supporting third-party inspection with guaranteed quality."
+        },
+        {
+          "num": "04",
+          "title": "Balanced Price & Quality",
+          "desc": "Focusing on wholesale with low margins, providing high cost-effective products and passing benefits to partners."
+        },
+        {
+          "num": "05",
+          "title": "24/7 Online Service",
+          "desc": "Providing consulting and quotation services for customers around the clock with timely response and smooth communication."
+        },
+        {
+          "num": "06",
+          "title": "Flexible Order Support",
+          "desc": "Supporting small batch orders and custom requirements, meeting procurement needs of different scales and types."
+        },
+        {
+          "num": "07",
+          "title": "Rich Industry Experience",
+          "desc": "Years of deep experience in steel pipe and plate industry, accumulating rich expertise and professional technical knowledge."
+        },
+        {
+          "num": "08",
+          "title": "Extensive Customer Base",
+          "desc": "Products exported to more than 30 countries and regions, serving over 500 enterprises with customers worldwide."
+        },
+        {
+          "num": "09",
+          "title": "Successful Project Cases",
+          "desc": "Participated in over 100 large-scale engineering projects, accumulating rich project service experience and good industry reputation."
+        }
+      ]
+    },
+    "facilities": {
+      "title": "Supply Chain Supervision Warehouse",
+      "description": "Professional supervision warehouses providing safe and convenient storage and logistics services for bulk material trade"
+    },
+    "team": {
+      "title": "Expert Team",
+      "description": "Professional team with years of experience in steel pipe and plate industry, providing comprehensive service support"
+    },
+    "features": {
+      "isoCertified": {
+        "title": "ISO Quality Certification",
+        "description": "Strict quality management system ensuring every shipment meets international standards."
+      },
+      "globalLogistics": {
+        "title": "Global Logistics Network",
+        "description": "Global coverage ensuring safe and fast delivery to customers worldwide."
+      },
+      "support": {
+        "title": "Professional Support",
+        "description": "Experienced customer service team providing full-process professional consultation and after-sales service."
+      },
+      "customSolutions": {
+        "title": "Customized Solutions",
+        "description": "Tailored procurement plans and supply chain solutions based on customer needs."
+      }
+    }
+  },
+  "gallery": {
+    "sectionLabel": "Warehouse & Logistics",
+    "title": "Modern Supply Chain Supervision Warehouse"
+  },
+  "testimonials": {
+    "sectionLabel": "Testimonials",
+    "title": "Trusted by Global Customers",
+    "items": {
+      "michael": {
+        "quote": "Luxi Supply Chain's steel pipe products are stable in quality and delivered on time. They are our trusted long-term partner.",
+        "author": "Mr. Zhang",
+        "role": "Procurement Director",
+        "company": "Construction Engineering Co."
+      },
+      "sarah": {
+        "quote": "The supply chain supervision warehouse service has greatly reduced our storage costs and significantly improved logistics efficiency.",
+        "author": "Ms. Wang",
+        "role": "Supply Chain Manager",
+        "company": "Trading Group"
+      },
+      "ahmed": {
+        "quote": "From inquiry to delivery, everything was professional and efficient, perfectly meeting our bulk material procurement needs.",
+        "author": "Mr. Li",
+        "role": "General Manager",
+        "company": "Overseas Trading Co."
+      }
+    }
+  },
+  "contact": {
+    "sectionLabel": "Contact Us",
+    "title": "Let's Discuss Your Requirements",
+    "description": "Whether you need steel pipe and plate quotes, supply chain solution consultation, or want to explore cooperation opportunities, our team is ready to assist you.",
+    "info": {
+      "headquarters": {
+        "title": "Company Address",
+        "address": "Room 17A, Xingguang Rongfu Center\nNo. 1 Huangshan Road, Liaocheng Economic and Technological Development Zone\nShandong Province, China"
+      },
+      "email": {
+        "title": "Email Us",
+        "addresses": "15063550004@139.com\nniucong217@163.com"
+      },
+      "phone": {
+        "title": "Call Us",
+        "numbers": "Fixed: +86 635 2180898\nMobile: +86 15063550004"
+      }
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Smith",
+      "email": "Email Address",
+      "emailPlaceholder": "john@company.com",
+      "company": "Company Name",
+      "companyPlaceholder": "Your Company Ltd.",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your requirements...",
+      "send": "Send Message",
+      "sent": "Message Sent!",
+      "title": "Send Message"
+    }
+  },
+  "news": {
+    "title": "News & Updates",
+    "description": "Stay informed with the latest news and industry trends from Luxi Supply Chain",
+    "categories": {
+      "company": "Company News",
+      "industry": "Industry Trends"
+    },
+    "items": [
+      {
+        "date": "2024-01-15",
+        "title": "Luxi Supply Chain Wins Best Service Provider Award",
+        "desc": "Recognized for excellent service and professional supply chain management capabilities.",
+        "category": "Company News"
+      },
+      {
+        "date": "2024-01-10",
+        "title": "Steel Export Volume Hits Record High in January",
+        "desc": "New year begins with a strong start, export volume up 30% year-over-year.",
+        "category": "Industry Trends"
+      },
+      {
+        "date": "2024-01-05",
+        "title": "Phase II of Supply Chain Warehouse Project Launched",
+        "desc": "To meet growing business demands, company launches Phase II construction of supply chain supervision warehouse.",
+        "category": "Company News"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "description": "Contact our team today for steel pipe and plate quotes and supply chain solution consultation.",
+    "requestQuote": "Request a Quote",
+    "viewProducts": "View Products"
+  },
+  "footer": {
+    "description": "Luxi (Liaocheng) Supply Chain Management Co., Ltd. - Your trusted steel pipe and plate supply chain partner.",
+    "links": {
+      "products": "Products",
+      "company": "Company",
+      "support": "Support"
+    },
+    "productLinks": ["Steel Pipes", "Steel Plates", "Steel Billets", "Supply Chain Services"],
+    "companyLinks": ["About Us", "Services", "News & Updates", "Contact Us"],
+    "supportLinks": ["Get Quote", "FAQs", "Technical Support", "Terms of Cooperation"],
+    "copyright": "© 2024 Luxi (Liaocheng) Supply Chain Management Co., Ltd. All rights reserved.",
+    "certifications": {
+      "iso9001": "ISO 9001:2015 Certified",
+      "iso14001": "ISO 14001:2015 Certified"
+    }
+  },
+  "solutions": {
+    "title": "Supply Chain Solutions",
+    "subtitle": "Professional steel pipe and plate supply chain services, providing comprehensive support for your business",
+    "sectionTitle": "Comprehensive Supply Chain Services",
+    "sectionSubtitle": "End-to-end solutions tailored to your project needs",
+    "learnMore": "Learn More →",
+    "statLabels": {
+      "projectsDelivered": "Projects Delivered",
+      "tonsMonthly": "Tons Monthly",
+      "storage": "㎡ Storage"
+    },
+    "process": {
+      "label": "Process",
+      "title": "How We Work",
+      "subtitle": "Streamlined process from inquiry to delivery",
+      "steps": [
+        { "title": "Inquiry", "description": "Submit your requirements" },
+        { "title": "Quotation", "description": "Receive detailed pricing" },
+        { "title": "Contract", "description": "Sign agreement terms" },
+        { "title": "Production", "description": "Manufacturing begins" },
+        { "title": "QC & Delivery", "description": "Quality check & shipping" }
+      ]
+    },
+    "items": {
+      "materialSupply": {
+        "title": "Project Material Supply",
+        "description": "Providing steel pipes, plates and other main materials for large-scale engineering projects, with professional supply chain management."
+      },
+      "bulkTrade": {
+        "title": "Bulk Material Trading",
+        "description": "Professional steel bulk trading services, connecting quality suppliers with global buyers."
+      },
+      "warehouse": {
+        "title": "Supply Chain Warehouse",
+        "description": "Modern warehousing facilities providing one-stop services for cargo supervision, inventory management, and logistics distribution."
+      }
+    },
+    "cta": {
+      "title": "Need Custom Solutions?",
+      "description": "Our team can tailor supply chain solutions based on your specific requirements",
+      "button": "Contact Us"
+    }
+  },
+  "technology": {
+    "title": "Technology & Innovation",
+    "subtitle": "Advanced production equipment, comprehensive testing systems, and professional R&D team to provide high-quality steel products and solutions",
+    "stats": {
+      "efficiencyGain": "Efficiency Gain",
+      "rndCenter": "R&D Center",
+      "passRate": "Pass Rate",
+      "autoLines": "Auto Lines"
+    },
+    "capabilities": {
+      "label": "Capabilities",
+      "title": "Core Capabilities",
+      "subtitle": "Continuous investment in technological innovation, leading industry development",
+      "smartManufacturing": {
+        "title": "Smart Manufacturing",
+        "description": "Introducing Siemens automation control system from Germany, achieving full-process digital management, improving production efficiency by 40%",
+        "statValue": "40%",
+        "statLabel": "Efficiency Improvement"
+      },
+      "rndCenter": {
+        "title": "R&D Center",
+        "description": "Equipped with advanced material testing and analysis equipment in a 3,000㎡ modern R&D center",
+        "statValue": "3,000㎡",
+        "statLabel": "R&D Area"
+      },
+      "qualityTesting": {
+        "title": "Quality Testing",
+        "description": "Equipped with spectrometers, universal testing machines and other precision testing equipment to ensure stable product quality",
+        "statValue": "99.8%",
+        "statLabel": "Pass Rate"
+      },
+      "automation": {
+        "title": "Automation Line",
+        "description": "8 fully automatic production lines with automated control from raw materials to finished products",
+        "statValue": "8",
+        "statLabel": "Production Lines"
+      }
+    },
+    "process": {
+      "label": "Process",
+      "title": "Production Process",
+      "subtitle": "Strict control at every stage to ensure product quality",
+      "steps": [
+        { "number": "01", "title": "Raw Material Inspection", "description": "Strict incoming inspection standards to ensure raw material quality" },
+        { "number": "02", "title": "Melting & Casting", "description": "Advanced electric arc furnace melting technology with precise composition control" },
+        { "number": "03", "title": "Rolling & Forming", "description": "High-precision rolling mills to ensure dimensional accuracy" },
+        { "number": "04", "title": "Heat Treatment", "description": "Precise temperature-controlled heat treatment process to optimize material properties" },
+        { "number": "05", "title": "Surface Treatment", "description": "Galvanizing, coating and other surface treatments to enhance corrosion resistance" },
+        { "number": "06", "title": "Final Inspection", "description": "Comprehensive testing to ensure every product meets standards" }
+      ]
+    },
+    "certifications": {
+      "label": "Certifications",
+      "title": "Certifications & Standards",
+      "subtitle": "International standard certifications, quality you can trust",
+      "items": [
+        { "name": "ISO 9001", "standard": "Quality Management System" },
+        { "name": "ISO 14001", "standard": "Environmental Management System" },
+        { "name": "ISO 45001", "standard": "Occupational Health & Safety" },
+        { "name": "API 5L", "standard": "Pipeline Steel Pipe Specification" },
+        { "name": "CE Certification", "standard": "EU Product Certification" },
+        { "name": "BV Certification", "standard": "Bureau Veritas" }
+      ]
+    },
+    "equipment": {
+      "label": "Equipment",
+      "title": "Testing Equipment",
+      "subtitle": "World-class testing equipment to ensure accurate and reliable data",
+      "tableHeaders": {
+        "name": "Equipment Name",
+        "model": "Model",
+        "origin": "Origin"
+      },
+      "items": [
+        { "name": "Spectrometer", "model": "OBLF QSN 750-II", "origin": "Germany" },
+        { "name": "Universal Testing Machine", "model": "INSTRON 5985", "origin": "USA" },
+        { "name": "Impact Testing Machine", "model": "ZWICK RKP 450", "origin": "Germany" },
+        { "name": "Hardness Tester", "model": "WILSON Rockwell", "origin": "USA" },
+        { "name": "Metallurgical Microscope", "model": "ZEISS Axio", "origin": "Germany" },
+        { "name": "Ultrasonic Flaw Detector", "model": "OLYMPUS EPOCH", "origin": "Japan" }
+      ]
+    },
+    "rnd": {
+      "label": "R&D Center",
+      "title": "Research & Development",
+      "description": "The company has a professional R&D team and has established cooperative relationships with many well-known universities and research institutes, continuously investing in the research and development of new products and new processes. Has obtained multiple national patents and has leading technical advantages in the field of special steel.",
+      "stats": {
+        "staff": { "value": "50+", "label": "R&D Staff" },
+        "patents": { "value": "30+", "label": "National Patents" },
+        "investment": { "value": "5%", "label": "R&D Investment Ratio" }
+      }
+    }
+  },
+  "esg": {
+    "title": "Sustainable Development",
+    "subtitle": "We are committed to continuous improvement in environmental protection, social responsibility and corporate governance, contributing to the construction of a green and low-carbon steel industry",
+    "stats": {
+      "renewableEnergy": { "value": 30, "suffix": "%", "label": "Renewable Energy Usage" },
+      "waterRecycling": { "value": 95, "suffix": "%", "label": "Water Recycling Rate" },
+      "scrapRecycling": { "value": 90, "suffix": "%", "label": "Scrap Steel Recycling Rate" },
+      "trainingHours": { "value": 40, "suffix": "h", "label": "Average Annual Training Hours" }
+    },
+    "pillars": {
+      "label": "Our Commitment",
+      "title": "ESG Pillars",
+      "subtitle": "Building a sustainable future for steel industry",
+      "environmental": {
+        "title": "Environmental",
+        "subtitle": "Green Manufacturing",
+        "items": ["Carbon Neutrality by 2050", "95% Water Recycling Rate", "90% Scrap Steel Reuse", "30% Renewable Energy"]
+      },
+      "social": {
+        "title": "Social",
+        "subtitle": "People First",
+        "items": ["Zero-Accident Safety Goal", "40h Annual Training", "Community Investment", "Fair Labor Standards"]
+      },
+      "governance": {
+        "title": "Governance",
+        "subtitle": "Transparent Operations",
+        "items": ["Compliance Management", "ESG Report Disclosure", "Risk Management System", "Zero-Tolerance Corruption"]
+      }
+    },
+    "goals": {
+      "label": "Targets",
+      "title": "Sustainability Goals",
+      "subtitle": "Our roadmap to carbon neutrality",
+      "items": [
+        { "year": "2025", "goal": "Reduce carbon intensity by 20%", "status": "In Progress" },
+        { "year": "2030", "goal": "50% renewable energy usage", "status": "Planned" },
+        { "year": "2040", "goal": "Near-zero carbon operations", "status": "Target" },
+        { "year": "2050", "goal": "Full carbon neutrality", "status": "Vision" }
+      ]
+    },
+    "environmental": {
+      "label": "Environmental",
+      "title": "Environmental Responsibility",
+      "subtitle": "Actively responding to climate change and promoting green low-carbon transformation",
+      "imageTitle": "Green Manufacturing",
+      "imageDesc": "Solar, wind and other renewable energy driving production",
+      "initiatives": [
+        { "title": "Carbon Neutrality Goal", "description": "Committed to achieving carbon neutrality by 2050, continuously reducing carbon emission intensity" },
+        { "title": "Water Resource Management", "description": "Recycling rate above 95%, reducing fresh water consumption" },
+        { "title": "Circular Economy", "description": "Scrap steel recycling rate exceeds 90%, promoting resource recycling" },
+        { "title": "Green Energy", "description": "30% of electricity from renewable sources, continuously expanding clean energy use" }
+      ]
+    },
+    "social": {
+      "label": "Social",
+      "title": "Social Responsibility",
+      "subtitle": "People-oriented, building a harmonious society together",
+      "imageTitle": "Employee Development",
+      "imageDesc": "Comprehensive safety training system to protect every employee",
+      "initiatives": [
+        { "title": "Employee Safety", "description": "Zero-accident goal, comprehensive safety training system and protective measures" },
+        { "title": "Skills Training", "description": "Average 40 hours of training per person per year to enhance employee professional capabilities" },
+        { "title": "Community Contribution", "description": "Annual investment in community development projects, supporting local education and healthcare" },
+        { "title": "Fair Trade", "description": "Compliance with international labor standards, safeguarding rights at all supply chain stages" }
+      ]
+    },
+    "governance": {
+      "label": "Governance",
+      "title": "Corporate Governance",
+      "subtitle": "Standardized operations, transparent and efficient",
+      "imageTitle": "Compliance & Transparency",
+      "imageDesc": "Sound governance system, accepting supervision from all parties",
+      "initiatives": [
+        { "title": "Compliance Operations", "description": "Strict compliance with domestic and international laws and regulations, establishing a sound compliance system" },
+        { "title": "Transparent Disclosure", "description": "Regular publication of ESG reports, accepting third-party audit verification" },
+        { "title": "Risk Management", "description": "Comprehensive risk identification and response mechanisms to ensure business continuity" },
+        { "title": "Business Ethics", "description": "Zero-tolerance corruption policy, maintaining a fair competitive market environment" }
+      ]
+    },
+    "report": {
+      "title": "ESG Report Download",
+      "description": "Learn about our detailed progress and future plans in sustainable development",
+      "buttons": {
+        "2023": "2023 ESG Report",
+        "2022": "2022 ESG Report"
+      }
+    }
+  },
+  "productCategories": {
+    "all": "All",
+    "pipe": "Steel Pipes",
+    "section": "Steel Sections",
+    "plate": "Steel Plates"
+  },
+  "productList": {
+    "gi-pipe-round": {
+      "name": "Galvanized Round Pipe",
+      "desc": "Hot-dip galvanized round pipe with smooth surface, uniform zinc layer and excellent corrosion resistance, widely used in construction, municipal and agricultural fields.",
+      "category": "Steel Pipe",
+      "categoryKey": "pipe",
+      "specs": ["DN15-DN200", "Thickness: 0.8-12mm", "Material: Q195/Q235/Q345"]
+    },
+    "gi-pipe-square": {
+      "name": "Galvanized Square Pipe",
+      "desc": "Hot-dip galvanized square pipe with high strength and good toughness, suitable for steel structures, machinery manufacturing and furniture production.",
+      "category": "Steel Pipe",
+      "categoryKey": "pipe",
+      "specs": ["15×15-400×400mm", "Thickness: 0.8-16mm", "Material: Q195/Q235/Q345"]
+    },
+    "erw-pipe": {
+      "name": "ERW Steel Pipe",
+      "desc": "High-frequency electric resistance welded pipe with high weld quality and good dimensional accuracy, suitable for fluid transportation and structural support.",
+      "category": "Steel Pipe",
+      "categoryKey": "pipe",
+      "specs": ["DN15-DN600", "Thickness: 0.5-20mm", "Standard: ASTM/EN/JIS"]
+    },
+    "seamless-pipe": {
+      "name": "Seamless Steel Pipe",
+      "desc": "Seamless steel pipe without weld seam, strong pressure-bearing capacity, suitable for high-pressure, high-temperature and harsh working conditions.",
+      "category": "Steel Pipe",
+      "categoryKey": "pipe",
+      "specs": ["OD: 10-720mm", "Thickness: 1-80mm", "Standard: API 5L/ASTM A106"]
+    },
+    "square-tube": {
+      "name": "Square/Rectangular Tube",
+      "desc": "Black annealed/galvanized square and rectangular tubes with complete specifications and custom cutting, widely used in building structures and machinery manufacturing.",
+      "category": "Steel Pipe",
+      "categoryKey": "pipe",
+      "specs": ["10×10-500×500mm", "Thickness: 0.5-20mm", "Material: Q195/Q235/Q345"]
+    },
+    "steel-section": {
+      "name": "U-Channel/H-Beam/Angle Steel",
+      "desc": "U-channel, H-beam and equal angle steel with excellent material quality, suitable for large building structures and bridge engineering.",
+      "category": "Steel Section",
+      "categoryKey": "section",
+      "specs": ["U-Channel/H-Beam/Angle", "Full Specifications", "Material: Q235B/Q355B"]
+    },
+    "gi-coil": {
+      "name": "Galvanized Steel Coil",
+      "desc": "Hot-dip galvanized steel coil with strong zinc layer adhesion and good anti-corrosion performance, can be processed by slitting and leveling.",
+      "category": "Steel Plate",
+      "categoryKey": "plate",
+      "specs": ["Thickness: 0.12-6.0mm", "Width: 600-1500mm", "Zinc: Z40-Z275"]
+    },
+    "gi-sheet": {
+      "name": "Galvanized Steel Sheet",
+      "desc": "Hot-dip galvanized steel sheet with good surface quality and excellent processing performance, suitable for home appliances, automotive and construction industries.",
+      "category": "Steel Plate",
+      "categoryKey": "plate",
+      "specs": ["Thickness: 0.12-6.0mm", "Width: 600-1500mm", "Zinc: Z40-Z275"]
+    },
+    "gi-roofing": {
+      "name": "Galvanized Roofing Sheet",
+      "desc": "Galvanized corrugated sheet (color steel tile) with light weight, high strength, waterproof and anti-corrosion, widely used for factory and warehouse roofs.",
+      "category": "Steel Plate",
+      "categoryKey": "plate",
+      "specs": ["Thickness: 0.13-1.0mm", "Width: 600-1100mm", "Profile: Multiple"]
+    },
+    "ppgi-coil": {
+      "name": "PPGI Coil",
+      "desc": "Pre-painted galvanized steel coil (PPGI) with rich colors and strong weather resistance, suitable for building decoration and home appliance shells.",
+      "category": "Steel Plate",
+      "categoryKey": "plate",
+      "specs": ["Thickness: 0.12-1.5mm", "Width: 600-1500mm", "Color: Custom"]
+    },
+    "ppgi-roofing": {
+      "name": "PPGI Roofing Sheet",
+      "desc": "Pre-painted corrugated sheet with beautiful appearance, durability, heat insulation and sound insulation, suitable for villas, factories and prefabricated houses.",
+      "category": "Steel Plate",
+      "categoryKey": "plate",
+      "specs": ["Thickness: 0.13-1.0mm", "Width: 600-1100mm", "Color: Custom"]
+    }
+  },
+  "productDetail": {
+    "specsTitle": "Product Specifications"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  }
+}
