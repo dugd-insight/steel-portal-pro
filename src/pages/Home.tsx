@@ -501,9 +501,9 @@ const AboutPreview = ({ sections }: { sections?: PageSection[] }) => {
           </div>
           <div style={{ position: 'relative' }}>
             <img
-              src="./images/about-company.jpg"
-              alt="钢材仓储基地"
-              style={{ width: '100%', height: '320px', objectFit: 'cover', borderRadius: 20, boxShadow: 'var(--shadow-lg)' }}
+              src="./images/about-building.jpg"
+              alt="聊城金投控股大楼"
+              style={{ width: '100%', height: 'auto', aspectRatio: '4/3', objectFit: 'cover', borderRadius: 20, boxShadow: 'var(--shadow-lg)' }}
               loading="lazy"
             />
             <div style={{
@@ -516,7 +516,7 @@ const AboutPreview = ({ sections }: { sections?: PageSection[] }) => {
               borderRadius: 16,
               boxShadow: 'var(--shadow-lg)',
             }}>
-              <div style={{ fontSize: 32, fontWeight: 700, lineHeight: 1 }}>15+</div>
+              <div style={{ fontSize: 32, fontWeight: 700, lineHeight: 1 }}>10+</div>
               <div style={{ fontSize: 14, opacity: 0.9 }}>{t('stats.years')}</div>
             </div>
           </div>
