@@ -31,8 +31,8 @@ const Header = ({ theme, onThemeChange, ThemeSelector }: HeaderProps) => {
   // Navigation items - simplified, no dropdown for about
   const navItems = [
     { key: 'home', path: '/' },
-    { key: 'about', path: '/about' },
     { key: 'products', path: '/products' },
+    { key: 'about', path: '/about' },
     { key: 'solutions', path: '/solutions' },
     { key: 'technology', path: '/technology' },
     { key: 'esg', path: '/esg' },

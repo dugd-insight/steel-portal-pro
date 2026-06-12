@@ -6,6 +6,67 @@ import { usePage } from '../../hooks/usePage';
 import LoadingSpinner from '../../components/common/LoadingSpinner';
 import './about.css';
 
+// Image Carousel Component
+const ImageCarousel = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const images = [
+    { src: './images/about-building.jpg', alt: '聊城金投控股大楼' },
+    { src: './images/about-culture.jpg', alt: '企业文化墙' },
+    { src: './images/about-office.jpg', alt: '办公环境' },
+    { src: './images/about-reception.jpg', alt: '财信集团前台' },
+  ];
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const goTo = (index: number) => setCurrentIndex(index);
+  const goPrev = () => setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+  const goNext = () => setCurrentIndex((prev) => (prev + 1) % images.length);
+
+  return (
+    <div className="about-company-image">
+      <div className="carousel-container">
+        {images.map((img, index) => (
+          <div
+            key={index}
+            className={`carousel-slide ${index === currentIndex ? 'active' : ''}`}
+          >
+            <img src={img.src} alt={img.alt} />
+          </div>
+        ))}
+        <button className="carousel-btn carousel-prev" onClick={goPrev} aria-label="上一张">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+        </button>
+        <button className="carousel-btn carousel-next" onClick={goNext} aria-label="下一张">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </button>
+        <div className="carousel-dots">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              className={`carousel-dot ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => goTo(index)}
+              aria-label={`切换到第${index + 1}张`}
+            />
+          ))}
+        </div>
+      </div>
+      <div className="about-image-badge">
+        <span className="badge-year">2015</span>
+        <span className="badge-text">成立于聊城</span>
+      </div>
+    </div>
+  );
+};
+
 // SVG Icons
 const VisionIcon = () => (
   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -158,13 +219,7 @@ const CompanySection = ({ sections }: { sections?: any[] }) => {
 
         <div className="about-company-grid-new">
           <ScrollReveal direction="left" delay={0.1}>
-            <div className="about-company-image">
-              <img src={companyData.image || "./images/tech-manufacturing.jpg"} alt="Steel manufacturing" />
-              <div className="about-image-badge">
-                <span className="badge-year">{companyData.badgeYear || '2021'}</span>
-                <span className="badge-text">{companyData.badgeText || t('about.established')}</span>
-              </div>
-            </div>
+            <ImageCarousel />
           </ScrollReveal>
 
           <ScrollReveal direction="right" delay={0.2}>
