@@ -164,7 +164,7 @@ const TrustBar = () => {
   const contactInfo = {
     phone: '+86 635 2180898',
     mobile: '+86 15063550004',
-    email: '15063550004@139.com',
+    email: 'chenxi@lccxtz.com',
     address: '山东省聊城经济技术开发区黄山路1号星光荣富中心17A室',
   };
 
@@ -379,6 +379,14 @@ const Products = ({ sections }: { sections?: PageSection[] }) => {
       images: ['./images/products/steel-section-1.jpg', './images/products/steel-section-2.jpg', './images/products/steel-section-3.jpg'],
       badgeKey: 'products.featured.steelSection.badge',
       specs: ['规格齐全', 'Q235B/Q355B', '定尺切割'],
+    },
+    {
+      key: 'hr-coil',
+      titleKey: 'products.featured.hrCoil.title',
+      descKey: 'products.featured.hrCoil.description',
+      images: ['./images/products/hr-coil-1.jpg', './images/products/hr-coil-2.jpg', './images/products/hr-coil-3.jpg', './images/products/hr-coil-4.jpg'],
+      badgeKey: 'products.featured.hrCoil.badge',
+      specs: ['厚度1.2-25.4mm', '宽度1000-2100mm', 'Q235B/Q345B/SPHC'],
     },
   ];
 
@@ -658,7 +666,7 @@ const ContactPreview = () => {
                 </div>
                 <div>
                   <h4 style={{ fontWeight: 600, marginBottom: 4 }}>{t('contact.info.email.title')}</h4>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: 14 }}>15063550004@139.com<br />niucong217@163.com</p>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: 14 }}>chenxi@lccxtz.com</p>
                 </div>
               </div>
 

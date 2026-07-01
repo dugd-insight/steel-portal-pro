@@ -13,7 +13,7 @@
   "hero": {
     "badge": "Trusted by Global Steel Enterprises",
     "title": "Steel Pipes & Plates",
-    "titleHighlight": "Supply Chain Management",
+    "titleHighlight": "Coil Supply Chain Management",
     "description": "Empowering Industry · Driving Quality Growth — Your Trusted Steel Pipe & Plate Supply Chain Partner.",
     "exploreProducts": "Explore Products",
     "contactSales": "Contact Sales",
@@ -86,6 +86,11 @@
       "steelSection": {
         "title": "U-Channel/H-Beam/Angle Steel",
         "description": "U-channel steel, H-beam, equal angle steel with excellent material quality.",
+        "badge": "Main"
+      },
+      "hrCoil": {
+        "title": "Hot Rolled Coil",
+        "description": "Hot rolled steel coil with oxide scale surface, suitable for cold rolling raw material, structural pipe and welded pipe processing.",
         "badge": "Main"
       }
     },
@@ -324,7 +329,7 @@
       },
       "email": {
         "title": "Email Us",
-        "addresses": "15063550004@139.com\nniucong217@163.com"
+        "addresses": "chenxi@lccxtz.com"
       },
       "phone": {
         "title": "Call Us",
@@ -386,7 +391,7 @@
       "company": "Company",
       "support": "Support"
     },
-    "productLinks": ["Steel Pipes", "Steel Plates", "Steel Billets", "Supply Chain Services"],
+    "productLinks": ["Steel Pipes", "Steel Plates", "Steel Billets", "Steel Coil", "Supply Chain Services"],
     "companyLinks": ["About Us", "Services", "News & Updates", "Contact Us"],
     "supportLinks": ["Get Quote", "FAQs", "Technical Support", "Terms of Cooperation"],
     "copyright": "© 2024 Luxi (Liaocheng) Supply Chain Management Co., Ltd. All rights reserved.",
@@ -667,6 +672,13 @@
       "category": "Steel Section",
       "categoryKey": "section",
       "specs": ["U-Channel/H-Beam/Angle", "Full Specifications", "Material: Q235B/Q355B"]
+    },
+    "hr-coil": {
+      "name": "Hot Rolled Coil",
+      "desc": "Hot rolled steel coil with oxide scale surface, high strength and good plasticity, suitable for cold rolling raw material, structural pipe and welded pipe processing.",
+      "category": "Steel Plate",
+      "categoryKey": "plate",
+      "specs": ["Thickness: 1.2-25.4mm", "Width: 1000-2100mm", "Material: Q235B/Q345B/SPHC"]
     },
     "gi-coil": {
       "name": "Galvanized Steel Coil",

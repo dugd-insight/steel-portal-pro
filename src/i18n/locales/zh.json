@@ -87,6 +87,11 @@
         "title": "U型钢/H型钢/角钢",
         "description": "U型槽钢、H型钢、等边角钢，材质优良。",
         "badge": "主营"
+      },
+      "hrCoil": {
+        "title": "热轧卷",
+        "description": "热轧钢卷，表面带有氧化铁皮，适用于冷轧原料、结构管、焊接钢管等深加工。",
+        "badge": "主营"
       }
     },
     "specs": {
@@ -360,7 +365,7 @@
       },
       "email": {
         "title": "邮件联系",
-        "addresses": "15063550004@139.com\nniucong217@163.com"
+        "addresses": "chenxi@lccxtz.com"
       },
       "phone": {
         "title": "电话联系",
@@ -425,7 +430,7 @@
       "company": "公司",
       "support": "支持"
     },
-    "productLinks": ["钢管", "钢板", "钢坯", "供应链服务"],
+    "productLinks": ["钢管", "钢板", "钢坯", "热轧卷", "供应链服务"],
     "companyLinks": ["关于我们", "服务项目", "新闻动态", "联系我们"],
     "supportLinks": ["获取报价", "常见问题", "技术支持", "合作条款"],
     "copyright": "© 2024 鲁西（聊城）供应链管理有限公司 版权所有",
@@ -706,6 +711,13 @@
       "category": "型钢",
       "categoryKey": "section",
       "specs": ["U型/H型/角钢", "规格齐全", "材质: Q235B/Q355B"]
+    },
+    "hr-coil": {
+      "name": "热轧卷",
+      "desc": "热轧钢卷，表面带有氧化铁皮，强度高、塑性好，适用于冷轧原料、结构管、焊接钢管等深加工。",
+      "category": "板材",
+      "categoryKey": "plate",
+      "specs": ["厚度: 1.2-25.4mm", "宽度: 1000-2100mm", "材质: Q235B/Q345B/SPHC"]
     },
     "gi-coil": {
       "name": "镀锌卷",

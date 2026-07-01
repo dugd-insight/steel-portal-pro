@@ -36,6 +36,11 @@ const productsData = [
     specsKey: 'steel-section',
   },
   {
+    key: 'hr-coil',
+    images: ['/images/products/hr-coil-1.jpg', '/images/products/hr-coil-2.jpg', '/images/products/hr-coil-3.jpg', '/images/products/hr-coil-4.jpg'],
+    specsKey: 'hr-coil',
+  },
+  {
     key: 'gi-coil',
     images: ['/images/products/gi-coil-1.jpg', '/images/products/gi-coil-2.jpg', '/images/products/gi-coil-3.jpg', '/images/products/gi-coil-4.jpg'],
     specsKey: 'gi-coil',
