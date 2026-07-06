@@ -349,13 +349,13 @@
 }
 
 .about-culture-card-large {
-  background: var(--bg-primary);
+  background: linear-gradient(145deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   border-radius: 20px;
   padding: 40px;
   border: 1px solid var(--border-light);
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .about-culture-card-large::before {
@@ -371,15 +371,35 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.about-culture-card-large::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, rgba(212, 160, 23, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
 .about-culture-card-large:hover::before {
   transform: scaleX(1);
   box-shadow: 0 0 12px 2px rgba(212, 160, 23, 0.4);
 }
 
+.about-culture-card-large:hover::after {
+  opacity: 1;
+}
+
 .about-culture-card-large:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 30px rgba(212, 160, 23, 0.1);
-  border-color: rgba(212, 160, 23, 0.3);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.10),
+    0 0 0 1px rgba(212, 160, 23, 0.2),
+    0 0 30px rgba(212, 160, 23, 0.08);
+  border-color: transparent;
 }
 
 .culture-card-icon {
@@ -392,6 +412,14 @@
   border-radius: 16px;
   color: white;
   margin-bottom: 20px;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(26, 54, 93, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-culture-card-large:hover .culture-card-icon {
+  transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 12px 32px rgba(26, 54, 93, 0.3);
 }
 
 .culture-label {
@@ -419,13 +447,13 @@
 
 .about-values-card {
   grid-column: span 2;
-  background: var(--bg-primary);
+  background: linear-gradient(145deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   border-radius: 20px;
   padding: 40px;
   border: 1px solid var(--border-light);
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .about-values-card::before {
@@ -441,15 +469,35 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.about-values-card::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 160px;
+  height: 160px;
+  background: radial-gradient(circle, rgba(212, 160, 23, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
 .about-values-card:hover::before {
   transform: scaleX(1);
   box-shadow: 0 0 12px 2px rgba(212, 160, 23, 0.4);
 }
 
+.about-values-card:hover::after {
+  opacity: 1;
+}
+
 .about-values-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 30px rgba(212, 160, 23, 0.1);
-  border-color: rgba(212, 160, 23, 0.3);
+  transform: translateY(-8px) scale(1.01);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.10),
+    0 0 0 1px rgba(212, 160, 23, 0.2),
+    0 0 30px rgba(212, 160, 23, 0.08);
+  border-color: transparent;
 }
 
 .about-values-list {
@@ -463,6 +511,13 @@
   display: flex;
   gap: 16px;
   align-items: flex-start;
+  padding: 16px;
+  border-radius: 12px;
+  transition: background 0.3s ease;
+}
+
+.about-value-item:hover {
+  background: rgba(212, 160, 23, 0.04);
 }
 
 .value-icon-small {
@@ -475,6 +530,12 @@
   border-radius: 10px;
   color: white;
   flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.about-value-item:hover .value-icon-small {
+  transform: scale(1.15);
 }
 
 .about-value-item h4 {
@@ -491,13 +552,13 @@
 }
 
 .about-culture-card {
-  background: var(--bg-primary);
+  background: linear-gradient(145deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   border-radius: 20px;
   padding: 32px;
   border: 1px solid var(--border-light);
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .about-culture-card::before {
@@ -513,15 +574,35 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.about-culture-card::after {
+  content: '';
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(212, 160, 23, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
 .about-culture-card:hover::before {
   transform: scaleX(1);
   box-shadow: 0 0 12px 2px rgba(212, 160, 23, 0.4);
 }
 
+.about-culture-card:hover::after {
+  opacity: 1;
+}
+
 .about-culture-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 30px rgba(212, 160, 23, 0.1);
-  border-color: rgba(212, 160, 23, 0.3);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.10),
+    0 0 0 1px rgba(212, 160, 23, 0.2),
+    0 0 30px rgba(212, 160, 23, 0.08);
+  border-color: transparent;
 }
 
 .about-culture-card h3 {
@@ -545,12 +626,12 @@
 }
 
 .about-cert-card-new {
-  background: var(--bg-secondary);
+  background: linear-gradient(145deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   border-radius: 20px;
   padding: 40px 32px;
   text-align: center;
   border: 1px solid var(--border-light);
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
   overflow: hidden;
 }
@@ -568,15 +649,36 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.about-cert-card-new::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 60px;
+  background: radial-gradient(ellipse, rgba(212, 160, 23, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
 .about-cert-card-new:hover::before {
   transform: scaleX(1);
   box-shadow: 0 0 12px 2px rgba(212, 160, 23, 0.4);
 }
 
+.about-cert-card-new:hover::after {
+  opacity: 1;
+}
+
 .about-cert-card-new:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 30px rgba(212, 160, 23, 0.1);
-  border-color: rgba(212, 160, 23, 0.3);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.10),
+    0 0 0 1px rgba(212, 160, 23, 0.2),
+    0 0 30px rgba(212, 160, 23, 0.08);
+  border-color: transparent;
 }
 
 .cert-icon {
@@ -585,10 +687,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--accent-light);
+  background: linear-gradient(135deg, var(--accent-light), rgba(212, 160, 23, 0.15));
+  border: 2px solid rgba(212, 160, 23, 0.2);
   border-radius: 50%;
   margin: 0 auto 20px;
   color: var(--accent-primary);
+  position: relative;
+  transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 16px rgba(212, 160, 23, 0.1);
+}
+
+.about-cert-card-new:hover .cert-icon {
+  transform: scale(1.1) rotate(5deg);
+  border-color: rgba(212, 160, 23, 0.5);
+  box-shadow: 0 8px 24px rgba(212, 160, 23, 0.2);
 }
 
 .about-cert-card-new h3 {
@@ -612,13 +724,13 @@
 }
 
 .about-why-card-new {
-  background: var(--bg-primary);
+  background: linear-gradient(145deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   border-radius: 20px;
   padding: 32px;
   border: 1px solid var(--border-light);
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .about-why-card-new::before {
@@ -634,15 +746,35 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.about-why-card-new::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(212, 160, 23, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
 .about-why-card-new:hover::before {
   transform: scaleX(1);
   box-shadow: 0 0 12px 2px rgba(212, 160, 23, 0.4);
 }
 
+.about-why-card-new:hover::after {
+  opacity: 1;
+}
+
 .about-why-card-new:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 30px rgba(212, 160, 23, 0.1);
-  border-color: rgba(212, 160, 23, 0.3);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.10),
+    0 0 0 1px rgba(212, 160, 23, 0.2),
+    0 0 30px rgba(212, 160, 23, 0.08);
+  border-color: transparent;
 }
 
 .why-num {
@@ -652,9 +784,17 @@
   font-family: var(--font-display);
   font-size: 48px;
   font-weight: 700;
-  color: var(--accent-primary);
-  opacity: 0.1;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary, #d4a017));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0.15;
   line-height: 1;
+  transition: opacity 0.4s ease;
+}
+
+.about-why-card-new:hover .why-num {
+  opacity: 0.3;
 }
 
 .about-why-card-new h3 {
@@ -759,15 +899,27 @@
 }
 
 /* 统计盒子 hover */
+.about-stat-box {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
 .about-stat-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: translateY(-4px) scale(1.03);
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.10),
+    0 0 0 1px rgba(212, 160, 23, 0.15);
+  border-color: transparent;
 }
 
 /* 信息卡片 hover */
+.about-info-card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
 .about-info-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: translateY(-4px) scale(1.02);
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.10),
+    0 0 0 1px rgba(212, 160, 23, 0.15);
+  border-color: transparent;
 }
