@@ -633,7 +633,8 @@
     "all": "All",
     "pipe": "Steel Pipes",
     "section": "Steel Sections",
-    "plate": "Steel Plates"
+    "plate": "Steel Plates",
+    "coil": "Steel Coils"
   },
   "productList": {
     "gi-pipe-round": {
@@ -681,15 +682,15 @@
     "hr-coil": {
       "name": "Hot Rolled Coil",
       "desc": "Hot rolled steel coil with oxide scale surface, high strength and good plasticity, suitable for cold rolling raw material, structural pipe and welded pipe processing.",
-      "category": "Steel Plate",
-      "categoryKey": "plate",
+      "category": "Steel Coil",
+      "categoryKey": "coil",
       "specs": ["Thickness: 1.2-25.4mm", "Width: 1000-2100mm", "Material: Q235B/Q345B/SPHC"]
     },
     "gi-coil": {
       "name": "Galvanized Steel Coil",
       "desc": "Hot-dip galvanized steel coil with strong zinc layer adhesion and good anti-corrosion performance, can be processed by slitting and leveling.",
-      "category": "Steel Plate",
-      "categoryKey": "plate",
+      "category": "Steel Coil",
+      "categoryKey": "coil",
       "specs": ["Thickness: 0.12-6.0mm", "Width: 600-1500mm", "Zinc: Z40-Z275"]
     },
     "gi-sheet": {
@@ -709,8 +710,8 @@
     "ppgi-coil": {
       "name": "PPGI Coil",
       "desc": "Pre-painted galvanized steel coil (PPGI) with rich colors and strong weather resistance, suitable for building decoration and home appliance shells.",
-      "category": "Steel Plate",
-      "categoryKey": "plate",
+      "category": "Steel Coil",
+      "categoryKey": "coil",
       "specs": ["Thickness: 0.12-1.5mm", "Width: 600-1500mm", "Color: Custom"]
     },
     "ppgi-roofing": {

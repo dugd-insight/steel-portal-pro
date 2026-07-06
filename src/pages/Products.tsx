@@ -254,7 +254,7 @@ const Products = () => {
   const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const categories = ['all', 'pipe', 'section', 'plate'];
+  const categories = ['all', 'pipe', 'section', 'plate', 'coil'];
 
   const filteredProducts = activeCategory === 'all'
     ? productsData
@@ -288,17 +288,6 @@ const Products = () => {
             <p className="products-hero-desc">
               {t('products.description')}
             </p>
-            <div className="products-hero-actions">
-              <a href="#products-grid" className="btn btn-primary btn-lg">
-                {t('products.learnMore')}
-                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style={{ marginLeft: 8 }}>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                </svg>
-              </a>
-              <Link to="/contact" className="btn btn-outline-light btn-lg">
-                {t('nav.getQuote')}
-              </Link>
-            </div>
           </div>
 
           {/* Floating Stats */}
@@ -309,7 +298,7 @@ const Products = () => {
             </div>
             <div className="products-hero-stat-divider" />
             <div className="products-hero-stat">
-              <span className="products-hero-stat-value">4</span>
+              <span className="products-hero-stat-value">5</span>
               <span className="products-hero-stat-label">{t('products.heroStats.categories')}</span>
             </div>
             <div className="products-hero-stat-divider" />

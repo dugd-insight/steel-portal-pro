@@ -672,7 +672,8 @@
     "all": "全部",
     "pipe": "钢管",
     "section": "型钢",
-    "plate": "板材"
+    "plate": "板材",
+    "coil": "钢卷"
   },
   "productList": {
     "gi-pipe-round": {
@@ -720,15 +721,15 @@
     "hr-coil": {
       "name": "热轧卷",
       "desc": "热轧钢卷，表面带有氧化铁皮，强度高、塑性好，适用于冷轧原料、结构管、焊接钢管等深加工。",
-      "category": "板材",
-      "categoryKey": "plate",
+      "category": "钢卷",
+      "categoryKey": "coil",
       "specs": ["厚度: 1.2-25.4mm", "宽度: 1000-2100mm", "材质: Q235B/Q345B/SPHC"]
     },
     "gi-coil": {
       "name": "镀锌卷",
       "desc": "热镀锌钢卷，锌层附着力强，防腐性能好，可进行纵剪、开平等深加工。",
-      "category": "板材",
-      "categoryKey": "plate",
+      "category": "钢卷",
+      "categoryKey": "coil",
       "specs": ["厚度: 0.12-6.0mm", "宽度: 600-1500mm", "锌层: Z40-Z275"]
     },
     "gi-sheet": {
@@ -748,8 +749,8 @@
     "ppgi-coil": {
       "name": "彩涂卷（PPGI）",
       "desc": "预涂彩色钢卷（PPGI），色彩丰富、耐候性强，适用于建筑装饰和家电外壳。",
-      "category": "板材",
-      "categoryKey": "plate",
+      "category": "钢卷",
+      "categoryKey": "coil",
       "specs": ["厚度: 0.12-1.5mm", "宽度: 600-1500mm", "颜色: 定制"]
     },
     "ppgi-roofing": {

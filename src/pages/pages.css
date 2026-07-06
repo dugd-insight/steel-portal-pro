@@ -799,6 +799,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   min-height: 65vh;
   padding: 80px 0;
   gap: 48px;
@@ -892,7 +894,7 @@
   display: flex;
   align-items: center;
   gap: 0;
-  padding: 28px 40px;
+  padding: 32px 56px;
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 20px;
@@ -906,7 +908,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 36px;
+  padding: 0 48px;
 }
 
 .products-hero-stat-value {
