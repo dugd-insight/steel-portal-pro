@@ -587,6 +587,12 @@
   border-bottom: 1px solid var(--border-light);
 }
 
+.about-values-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .values-header-icon {
   width: 56px;
   height: 56px;

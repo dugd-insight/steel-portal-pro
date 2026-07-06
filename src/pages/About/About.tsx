@@ -342,8 +342,10 @@ const CultureSection = ({ sections }: { sections?: any[] }) => {
           <div className="about-values-section">
             <div className="about-values-header">
               <div className="culture-card-icon icon-violet values-header-icon"><ValueIcon /></div>
-              <span className="culture-label">{t('about.culture.values.label')}</span>
-              <h3 className="about-values-title">{t('about.culture.values.title') || t('about.culture.values.label')}</h3>
+              <div className="about-values-header-text">
+                <span className="culture-label">{t('about.culture.values.label')}</span>
+                <h3 className="about-values-title">{t('about.culture.values.label')}</h3>
+              </div>
             </div>
             <div className="about-values-list">
               {(cultureData.values || [
