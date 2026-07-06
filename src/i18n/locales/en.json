@@ -35,6 +35,11 @@
     "title": "Steel Pipe & Plate & Coil Supply Chain Solutions",
     "description": "Providing steel pipes, plates, steel coil and bulk material supply with integrated supply chain supervision warehouses, helping global steel enterprises operate efficiently.",
     "learnMore": "Learn More",
+    "heroStats": {
+      "productTypes": "Product Types",
+      "categories": "Categories",
+      "specs": "Specifications"
+    },
     "items": {
       "galvanizedSteel": {
         "title": "Steel Pipes",

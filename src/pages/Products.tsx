@@ -270,36 +270,70 @@ const Products = () => {
   return (
     <div className="products-page">
       {/* Hero Section */}
-      <section className="about-hero">
-        <div className="container">
-          <span className="section-label">{t('products.sectionLabel')}</span>
-          <h1 className="about-hero-title">{t('products.title')}</h1>
-          <p className="about-hero-desc">{t('products.description')}</p>
+      <section className="products-hero">
+        <div className="products-hero-bg">
+          <img src="/images/steel-billets.jpg" alt="Steel Products" />
+          <div className="products-hero-overlay" />
+          <div className="products-hero-grid-pattern" />
         </div>
+        <div className="container products-hero-container">
+          <div className="products-hero-content">
+            <span className="products-hero-label">
+              <span className="products-hero-label-dot" />
+              {t('products.sectionLabel')}
+            </span>
+            <h1 className="products-hero-title">
+              {t('products.title')}
+            </h1>
+            <p className="products-hero-desc">
+              {t('products.description')}
+            </p>
+            <div className="products-hero-actions">
+              <a href="#products-grid" className="btn btn-primary btn-lg">
+                {t('products.learnMore')}
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style={{ marginLeft: 8 }}>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </a>
+              <Link to="/contact" className="btn btn-outline-light btn-lg">
+                {t('nav.getQuote')}
+              </Link>
+            </div>
+          </div>
+
+          {/* Floating Stats */}
+          <div className="products-hero-stats">
+            <div className="products-hero-stat">
+              <span className="products-hero-stat-value">12+</span>
+              <span className="products-hero-stat-label">{t('products.heroStats.productTypes')}</span>
+            </div>
+            <div className="products-hero-stat-divider" />
+            <div className="products-hero-stat">
+              <span className="products-hero-stat-value">4</span>
+              <span className="products-hero-stat-label">{t('products.heroStats.categories')}</span>
+            </div>
+            <div className="products-hero-stat-divider" />
+            <div className="products-hero-stat">
+              <span className="products-hero-stat-value">100<span className="products-hero-stat-unit">+</span></span>
+              <span className="products-hero-stat-label">{t('products.heroStats.specs')}</span>
+            </div>
+          </div>
+        </div>
+        <div className="products-hero-gold-line" />
       </section>
 
       {/* Category Filter */}
-      <section style={{ background: 'var(--bg-secondary)', padding: '24px 0', borderBottom: '1px solid var(--border-light)' }}>
+      <section className="products-filter-bar">
         <div className="container">
-          <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', justifyContent: 'center' }}>
+          <div className="products-filter-inner">
             {categories.map(cat => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                style={{
-                  padding: '10px 24px',
-                  borderRadius: 24,
-                  border: 'none',
-                  fontSize: 14,
-                  fontWeight: 500,
-                  cursor: 'pointer',
-                  transition: 'all 0.2s ease',
-                  background: activeCategory === cat ? 'var(--accent-primary)' : 'var(--bg-primary)',
-                  color: activeCategory === cat ? 'white' : 'var(--text-secondary)',
-                  boxShadow: activeCategory === cat ? '0 4px 12px rgba(26, 95, 180, 0.3)' : 'var(--shadow-sm)',
-                }}
+                className={`products-filter-btn ${activeCategory === cat ? 'active' : ''}`}
               >
                 {t(`productCategories.${cat}`)}
+                {activeCategory === cat && <span className="products-filter-btn-glow" />}
               </button>
             ))}
           </div>
@@ -307,7 +341,7 @@ const Products = () => {
       </section>
 
       {/* Products Grid */}
-      <section className="section">
+      <section className="section" id="products-grid">
         <div className="container">
           <div className="products-grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))' }}>
             {filteredProducts.map((product) => (

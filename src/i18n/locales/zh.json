@@ -35,6 +35,11 @@
     "title": "钢管钢板钢卷供应链解决方案",
     "description": "提供钢管、钢板、钢卷等主材供应及大宗物资贸易服务，配套供应链监管仓库，助力全球钢铁企业高效运营。",
     "learnMore": "了解更多",
+    "heroStats": {
+      "productTypes": "产品类型",
+      "categories": "产品分类",
+      "specs": "规格型号"
+    },
     "items": {
       "galvanizedSteel": {
         "title": "钢管",
