@@ -408,18 +408,98 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--accent-light), var(--accent-primary));
   border-radius: 16px;
   color: white;
   margin-bottom: 20px;
   position: relative;
-  box-shadow: 0 8px 24px rgba(26, 54, 93, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .about-culture-card-large:hover .culture-card-icon {
-  transform: scale(1.1) rotate(-5deg);
-  box-shadow: 0 12px 32px rgba(26, 54, 93, 0.3);
+  transform: scale(1.12);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Small icon variant for philosophy/spirit cards */
+.culture-card-icon-sm {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  color: white;
+  margin-bottom: 16px;
+  position: relative;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-culture-card:hover .culture-card-icon-sm {
+  transform: scale(1.12);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+}
+
+/* === Icon Color Variants === */
+
+/* Blue - Vision */
+.culture-card-icon.icon-blue,
+.culture-card-icon-sm.icon-blue,
+.cert-icon.icon-blue,
+.value-icon-small.icon-blue {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+}
+
+/* Emerald - Mission */
+.culture-card-icon.icon-emerald,
+.culture-card-icon-sm.icon-emerald,
+.cert-icon.icon-emerald,
+.value-icon-small.icon-emerald {
+  background: linear-gradient(135deg, #10b981, #047857);
+}
+
+/* Teal - Philosophy */
+.culture-card-icon-sm.icon-teal,
+.cert-icon.icon-teal {
+  background: linear-gradient(135deg, #14b8a6, #0f766e);
+}
+
+/* Orange - Spirit */
+.culture-card-icon-sm.icon-orange,
+.cert-icon.icon-orange {
+  background: linear-gradient(135deg, #f97316, #c2410c);
+}
+
+/* Violet - Values */
+.value-icon-small.icon-violet,
+.cert-icon.icon-violet {
+  background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+}
+
+/* Amber - Values */
+.value-icon-small.icon-amber,
+.cert-icon.icon-amber {
+  background: linear-gradient(135deg, #f59e0b, #b45309);
+}
+
+/* Rose - Values */
+.value-icon-small.icon-rose,
+.cert-icon.icon-rose {
+  background: linear-gradient(135deg, #f43f5e, #be123c);
+}
+
+/* Cert icon overrides for colored variants */
+.cert-icon.icon-blue,
+.cert-icon.icon-emerald,
+.cert-icon.icon-violet,
+.cert-icon.icon-amber,
+.cert-icon.icon-rose,
+.cert-icon.icon-teal,
+.cert-icon.icon-orange {
+  color: white;
+  border: 2px solid transparent;
+  background-clip: padding-box;
 }
 
 .culture-label {
@@ -526,11 +606,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--accent-light), var(--accent-primary));
   border-radius: 10px;
   color: white;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
 }
 
@@ -698,7 +777,7 @@
 }
 
 .about-cert-card-new:hover .cert-icon {
-  transform: scale(1.1) rotate(5deg);
+  transform: scale(1.1);
   border-color: rgba(212, 160, 23, 0.5);
   box-shadow: 0 8px 24px rgba(212, 160, 23, 0.2);
 }
