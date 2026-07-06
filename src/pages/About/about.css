@@ -525,8 +525,9 @@
   line-height: 1.7;
 }
 
-.about-values-card {
-  grid-column: span 2;
+/* Core Values - Separate Full-Width Section */
+.about-values-section {
+  margin-top: 32px;
   background: linear-gradient(145deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   border-radius: 20px;
   padding: 40px;
@@ -536,55 +537,74 @@
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.about-values-card::before {
+.about-values-section::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--accent-secondary, #d4a017);
+  background: linear-gradient(90deg, #8b5cf6, #f59e0b, #f43f5e);
   border-radius: 8px 8px 0 0;
   transform: scaleX(0);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-origin: left;
+  transition: transform 0.5s ease;
 }
 
-.about-values-card::after {
+.about-values-section::after {
   content: '';
   position: absolute;
-  top: -40px;
-  right: -40px;
-  width: 160px;
-  height: 160px;
-  background: radial-gradient(circle, rgba(212, 160, 23, 0.06) 0%, transparent 70%);
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.05) 0%, transparent 70%);
   border-radius: 50%;
-  transition: opacity 0.4s ease;
   opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
-.about-values-card:hover::before {
+.about-values-section:hover::before {
   transform: scaleX(1);
-  box-shadow: 0 0 12px 2px rgba(212, 160, 23, 0.4);
 }
 
-.about-values-card:hover::after {
+.about-values-section:hover::after {
   opacity: 1;
 }
 
-.about-values-card:hover {
-  transform: translateY(-8px) scale(1.01);
+.about-values-section:hover {
   box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.10),
-    0 0 0 1px rgba(212, 160, 23, 0.2),
-    0 0 30px rgba(212, 160, 23, 0.08);
-  border-color: transparent;
+    0 20px 40px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(139, 92, 246, 0.15);
+}
+
+.about-values-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.values-header-icon {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.about-values-title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
 }
 
 .about-values-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  margin-top: 24px;
 }
 
 .about-value-item {
@@ -901,12 +921,14 @@
     grid-template-columns: 1fr;
   }
 
-  .about-values-card {
-    grid-column: span 1;
-  }
-
   .about-values-list {
     grid-template-columns: 1fr;
+  }
+
+  .about-values-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
   }
 
   .about-certs-grid {

@@ -298,8 +298,8 @@ const CultureSection = ({ sections }: { sections?: any[] }) => {
           </div>
         </ScrollReveal>
 
+        {/* 4 Culture Cards: 2x2 Grid */}
         <div className="about-culture-grid-new">
-          {/* Vision & Mission */}
           <ScrollReveal delay={0.1}>
             <div className="about-culture-card-large">
               <div className="culture-card-icon icon-blue"><VisionIcon /></div>
@@ -318,50 +318,53 @@ const CultureSection = ({ sections }: { sections?: any[] }) => {
             </div>
           </ScrollReveal>
 
-          {/* Core Values */}
           <ScrollReveal delay={0.3}>
-            <div className="about-values-card">
-              <span className="culture-label">{t('about.culture.values.label')}</span>
-              <div className="about-values-list">
-                {(cultureData.values || [
-                  { key: 'customerFirst', icon: true },
-                  { key: 'selfDiscipline', icon: true },
-                  { key: 'dedication', icon: true },
-                ]).map((value: any, i: number) => {
-                  const iconColors = ['icon-violet', 'icon-amber', 'icon-rose'];
-                  return (
-                  <div key={i} className="about-value-item">
-                    <div className={`value-icon-small ${iconColors[i % iconColors.length]}`}><ValueIcon /></div>
-                    <div>
-                      <h4>{value.title || t(`about.culture.values.${value.key}.title`)}</h4>
-                      <p>{value.desc || t(`about.culture.values.${value.key}.desc`)}</p>
-                    </div>
-                  </div>
-                  );
-                })}
-              </div>
-            </div>
-          </ScrollReveal>
-
-          {/* Philosophy & Spirit */}
-          <ScrollReveal delay={0.4}>
-            <div className="about-culture-card">
-              <div className="culture-card-icon-sm icon-teal"><PhilosophyIcon /></div>
+            <div className="about-culture-card-large">
+              <div className="culture-card-icon icon-teal"><PhilosophyIcon /></div>
               <span className="culture-label">{t('about.culture.philosophy.label')}</span>
               <h3>{cultureData.philosophyTitle || t('about.culture.philosophy.title')}</h3>
               <p>{cultureData.philosophyDesc || t('about.culture.philosophy.desc')}</p>
             </div>
           </ScrollReveal>
 
-          <ScrollReveal delay={0.5}>
-            <div className="about-culture-card">
-              <div className="culture-card-icon-sm icon-orange"><SpiritIcon /></div>
+          <ScrollReveal delay={0.4}>
+            <div className="about-culture-card-large">
+              <div className="culture-card-icon icon-orange"><SpiritIcon /></div>
               <span className="culture-label">{t('about.culture.spirit.label')}</span>
               <h3>{cultureData.spiritTitle || t('about.culture.spirit.title')}</h3>
               <p>{cultureData.spiritDesc || t('about.culture.spirit.desc')}</p>
             </div>
           </ScrollReveal>
         </div>
+
+        {/* Core Values - Separate Full-Width Section */}
+        <ScrollReveal delay={0.2}>
+          <div className="about-values-section">
+            <div className="about-values-header">
+              <div className="culture-card-icon icon-violet values-header-icon"><ValueIcon /></div>
+              <span className="culture-label">{t('about.culture.values.label')}</span>
+              <h3 className="about-values-title">{t('about.culture.values.title') || t('about.culture.values.label')}</h3>
+            </div>
+            <div className="about-values-list">
+              {(cultureData.values || [
+                { key: 'customerFirst', icon: true },
+                { key: 'selfDiscipline', icon: true },
+                { key: 'dedication', icon: true },
+              ]).map((value: any, i: number) => {
+                const iconColors = ['icon-violet', 'icon-amber', 'icon-rose'];
+                return (
+                <div key={i} className="about-value-item">
+                  <div className={`value-icon-small ${iconColors[i % iconColors.length]}`}><ValueIcon /></div>
+                  <div>
+                    <h4>{value.title || t(`about.culture.values.${value.key}.title`)}</h4>
+                    <p>{value.desc || t(`about.culture.values.${value.key}.desc`)}</p>
+                  </div>
+                </div>
+                );
+              })}
+            </div>
+          </div>
+        </ScrollReveal>
       </div>
     </ScrollRevealSection>
   );
