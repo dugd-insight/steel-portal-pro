@@ -460,30 +460,35 @@
 }
 
 /* Teal - Philosophy */
+.culture-card-icon.icon-teal,
 .culture-card-icon-sm.icon-teal,
 .cert-icon.icon-teal {
   background: linear-gradient(135deg, #14b8a6, #0f766e);
 }
 
 /* Orange - Spirit */
+.culture-card-icon.icon-orange,
 .culture-card-icon-sm.icon-orange,
 .cert-icon.icon-orange {
   background: linear-gradient(135deg, #f97316, #c2410c);
 }
 
 /* Violet - Values */
+.culture-card-icon.icon-violet,
 .value-icon-small.icon-violet,
 .cert-icon.icon-violet {
   background: linear-gradient(135deg, #8b5cf6, #6d28d9);
 }
 
 /* Amber - Values */
+.culture-card-icon.icon-amber,
 .value-icon-small.icon-amber,
 .cert-icon.icon-amber {
   background: linear-gradient(135deg, #f59e0b, #b45309);
 }
 
 /* Rose - Values */
+.culture-card-icon.icon-rose,
 .value-icon-small.icon-rose,
 .cert-icon.icon-rose {
   background: linear-gradient(135deg, #f43f5e, #be123c);
