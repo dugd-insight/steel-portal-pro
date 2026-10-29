@@ -66,14 +66,14 @@ const HeroContent = ({ heroData, stats, t }: { heroData: any; stats: any[]; t: a
               {heroData.badge || t('hero.badge')}
             </span>
 
-            <h1 className="hero-immersive-title hero-animate-2" style={{ fontSize: 'clamp(26px, 3.2vw, 40px)', lineHeight: 1.3 }}>
+            <h1 className="hero-immersive-title hero-animate-2" style={{ fontSize: 'clamp(1.625rem, 3.2vw, 2.5rem)', lineHeight: 1.3 }}>
               {heroData.title || t('hero.title')}{' '}
               <span className="hero-title-highlight">
                 {heroData.titleHighlight || t('hero.titleHighlight')}
               </span>
             </h1>
 
-            <p className="hero-immersive-desc hero-animate-3" style={{ fontSize: '16px', maxWidth: '480px' }}>
+            <p className="hero-immersive-desc hero-animate-3" style={{ fontSize: '1rem', maxWidth: '480px' }}>
               {heroData.description || t('hero.description')}
             </p>
 
@@ -128,7 +128,7 @@ const HeroContent = ({ heroData, stats, t }: { heroData: any; stats: any[]; t: a
                 <span style={{
                   display: 'block',
                   fontFamily: 'var(--font-display)',
-                  fontSize: '32px',
+                  fontSize: '2rem',
                   fontWeight: 700,
                   color: '#ffffff',
                   lineHeight: 1.2,
@@ -139,7 +139,7 @@ const HeroContent = ({ heroData, stats, t }: { heroData: any; stats: any[]; t: a
                   {stat.num}
                 </span>
                 <span style={{
-                  fontSize: '13px',
+                  fontSize: '0.8125rem',
                   color: 'rgba(255, 255, 255, 0.85)',
                   fontWeight: 500,
                   lineHeight: 1.4,
@@ -263,7 +263,7 @@ const HomeProductCarousel = ({ product, index }: { product: { key: string; title
             color: 'white',
             padding: '4px 10px',
             borderRadius: 12,
-            fontSize: 12,
+            fontSize: '0.75rem',
           }}>
             {currentIdx + 1} / {product.images.length}
           </span>
@@ -276,7 +276,7 @@ const HomeProductCarousel = ({ product, index }: { product: { key: string; title
                 position: 'absolute', left: 8, top: '50%', transform: 'translateY(-50%)',
                 width: 28, height: 28, borderRadius: '50%', border: 'none',
                 background: 'rgba(0,0,0,0.4)', color: 'white', cursor: 'pointer',
-                display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16,
+                display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1rem',
               }}
             >‹</button>
             <button
@@ -285,7 +285,7 @@ const HomeProductCarousel = ({ product, index }: { product: { key: string; title
                 position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%)',
                 width: 28, height: 28, borderRadius: '50%', border: 'none',
                 background: 'rgba(0,0,0,0.4)', color: 'white', cursor: 'pointer',
-                display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16,
+                display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1rem',
               }}
             >›</button>
             <div style={{
@@ -314,7 +314,7 @@ const HomeProductCarousel = ({ product, index }: { product: { key: string; title
             <span key={j} className="spec-tag">{spec}</span>
           ))}
         </div>
-        <Link to="/products" className="btn btn-ghost" style={{ color: 'var(--accent-primary)', fontWeight: 600, fontSize: 14 }}>
+        <Link to="/products" className="btn btn-ghost" style={{ color: 'var(--accent-primary)', fontWeight: 600, fontSize: '0.875rem' }}>
           {t('products.learnMore')}
           <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -402,7 +402,6 @@ const Products = ({ sections }: { sections?: PageSection[] }) => {
     <section id="products" className="section reveal">
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: 48 }}>
-          <span className="section-label">{productsSection?.title || t('products.sectionLabel')}</span>
           <h2 className="section-title">{productsSection?.content || t('products.title')}</h2>
           <p className="section-desc" style={{ margin: '0 auto' }}>
             {productsSection?.metadata?.description || t('products.description')}
@@ -450,7 +449,6 @@ const Features = ({ sections }: { sections?: PageSection[] }) => {
     <section className="section reveal" style={{ background: 'var(--bg-secondary)' }}>
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: 48 }}>
-          <span className="section-label">{t('features.sectionLabel')}</span>
           <h2 className="section-title">{t('features.title')}</h2>
           <p className="section-desc" style={{ margin: '0 auto' }}>
             {t('features.description')}
@@ -484,9 +482,8 @@ const AboutPreview = ({ sections }: { sections?: PageSection[] }) => {
       <div className="container">
         <div className="about-preview-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64, alignItems: 'center' }}>
           <div>
-            <span className="section-label">{t('about.sectionLabel')}</span>
             <h2 className="section-title" style={{ textAlign: 'left' }}>{t('about.title')}</h2>
-            <p style={{ color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: 24, fontSize: '16px' }}>
+            <p style={{ color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: 24, fontSize: '1rem' }}>
               {t('about.description')}
             </p>
             <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
@@ -524,8 +521,8 @@ const AboutPreview = ({ sections }: { sections?: PageSection[] }) => {
               borderRadius: 16,
               boxShadow: 'var(--shadow-lg)',
             }}>
-              <div style={{ fontSize: 32, fontWeight: 700, lineHeight: 1 }}>10+</div>
-              <div style={{ fontSize: 14, opacity: 0.9 }}>{t('stats.years')}</div>
+              <div style={{ fontSize: '2rem', fontWeight: 700, lineHeight: 1 }}>10+</div>
+              <div style={{ fontSize: '0.875rem', opacity: 0.9 }}>{t('stats.years')}</div>
             </div>
           </div>
         </div>
@@ -542,7 +539,6 @@ const WarehouseSection = () => {
     <section className="section reveal" style={{ background: 'var(--bg-secondary)' }}>
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: 48 }}>
-          <span className="section-label">{t('warehouse.sectionLabel')}</span>
           <h2 className="section-title">{t('warehouse.title')}</h2>
           <p className="section-desc" style={{ margin: '0 auto' }}>
             {t('warehouse.description')}
@@ -557,8 +553,8 @@ const WarehouseSection = () => {
           ].map((item, i) => (
             <div key={i} className={`animate-fade-in-up delay-${i + 1}`} style={{ animationDelay: `${i * 100}ms` }}>
               <img src={item.img} alt={item.title} style={{ width: '100%', height: 200, objectFit: 'cover', borderRadius: 16, marginBottom: 16 }} loading="lazy" />
-              <h3 style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>{item.title}</h3>
-              <p style={{ color: 'var(--text-secondary)', fontSize: 14, lineHeight: 1.6 }}>{item.desc}</p>
+              <h3 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: 8 }}>{item.title}</h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem', lineHeight: 1.6 }}>{item.desc}</p>
             </div>
           ))}
         </div>
@@ -581,22 +577,21 @@ const Testimonials = () => {
     <section className="section reveal">
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: 48 }}>
-          <span className="section-label">{t('testimonials.sectionLabel')}</span>
           <h2 className="section-title">{t('testimonials.title')}</h2>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 }}>
           {testimonials.map((item, i) => (
             <div key={i} className={`testimonial-card animate-fade-in-up delay-${i + 1}`} style={{ animationDelay: `${i * 100}ms` }}>
-              <div style={{ fontSize: 48, color: 'var(--accent-primary)', opacity: 0.3, lineHeight: 1, marginBottom: 16 }}>"</div>
+              <div style={{ fontSize: '3rem', color: 'var(--accent-primary)', opacity: 0.3, lineHeight: 1, marginBottom: 16 }}>"</div>
               <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: 24, fontStyle: 'italic' }}>{item.quote}</p>
               <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                 <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--accent-light)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--accent-primary)', fontWeight: 600 }}>
                   {item.author[0]}
                 </div>
                 <div>
-                  <div style={{ fontWeight: 600, fontSize: 14 }}>{item.author}</div>
-                  <div style={{ fontSize: 12, color: 'var(--text-tertiary)' }}>{item.company}</div>
+                  <div style={{ fontWeight: 600, fontSize: '0.875rem' }}>{item.author}</div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>{item.company}</div>
                 </div>
               </div>
             </div>
@@ -615,8 +610,8 @@ const CTASection = () => {
     <section className="section reveal" style={{ background: 'var(--accent-primary)', color: 'white' }}>
       <div className="container">
         <div style={{ textAlign: 'center', maxWidth: 640, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 'clamp(28px, 3vw, 36px)', fontWeight: 700, marginBottom: 16 }}>{t('cta.title')}</h2>
-          <p style={{ opacity: 0.9, marginBottom: 32, fontSize: 16 }}>{t('cta.description')}</p>
+          <h2 style={{ fontSize: 'clamp(1.75rem, 3vw, 2.25rem)', fontWeight: 700, marginBottom: 16 }}>{t('cta.title')}</h2>
+          <p style={{ opacity: 0.9, marginBottom: 32, fontSize: '1rem' }}>{t('cta.description')}</p>
           <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href="#contact" className="btn" style={{ background: 'white', color: 'var(--accent-primary)' }}>
               {t('cta.primary')}
@@ -643,7 +638,6 @@ const ContactPreview = () => {
       <div className="container">
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64 }}>
           <div>
-            <span className="section-label">{t('contact.sectionLabel')}</span>
             <h2 className="section-title" style={{ textAlign: 'left' }}>{t('contact.title')}</h2>
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: 32 }}>
               {t('contact.description')}
@@ -656,7 +650,7 @@ const ContactPreview = () => {
                 </div>
                 <div>
                   <h4 style={{ fontWeight: 600, marginBottom: 4 }}>{t('contact.info.headquarters.title')}</h4>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: 14 }}>{t('contact.info.headquarters.address')}</p>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>{t('contact.info.headquarters.address')}</p>
                 </div>
               </div>
 
@@ -666,7 +660,7 @@ const ContactPreview = () => {
                 </div>
                 <div>
                   <h4 style={{ fontWeight: 600, marginBottom: 4 }}>{t('contact.info.email.title')}</h4>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: 14 }}>chenxi@lccxtz.com</p>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>chenxi@lccxtz.com</p>
                 </div>
               </div>
 
@@ -676,7 +670,7 @@ const ContactPreview = () => {
                 </div>
                 <div>
                   <h4 style={{ fontWeight: 600, marginBottom: 4 }}>{t('contact.info.phone.title')}</h4>
-                  <p style={{ color: 'var(--text-secondary)', fontSize: 14 }}>
+                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>
                     {t('contact.info.phone.numbers')}
                   </p>
                 </div>
@@ -685,7 +679,7 @@ const ContactPreview = () => {
           </div>
 
           <div style={{ background: 'var(--bg-secondary)', padding: 40, borderRadius: 20, border: '1px solid var(--border-light)' }}>
-            <h3 style={{ fontSize: 20, fontWeight: 600, marginBottom: 24 }}>{t('contact.form.title')}</h3>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: 24 }}>{t('contact.form.title')}</h3>
             <form style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
               <input type="text" placeholder={t('contact.form.name')} className="form-input" />
               <input type="email" placeholder={t('contact.form.email')} className="form-input" />

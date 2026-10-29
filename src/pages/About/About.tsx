@@ -174,7 +174,6 @@ const About = () => {
       {/* Hero Section */}
       <section className="about-hero-new">
         <div className="container">
-          <span className="section-label">{pageMetadata.sectionLabel || t('about.sectionLabel')}</span>
           <h1 className="about-hero-title">{pageMetadata.title || t('about.subtitle')}</h1>
           <p className="about-hero-desc">{pageMetadata.description || t('about.description')}</p>
         </div>
@@ -225,7 +224,6 @@ const CompanySection = ({ sections }: { sections?: any[] }) => {
       <div className="container">
         <ScrollReveal>
           <div className="about-section-header">
-            <span className="section-label">{t('about.tabs.company')}</span>
             <h2 className="about-section-title">{companyData.intro || t('about.company.intro')}</h2>
           </div>
         </ScrollReveal>
@@ -293,7 +291,6 @@ const CultureSection = ({ sections }: { sections?: any[] }) => {
       <div className="container">
         <ScrollReveal>
           <div className="about-section-header">
-            <span className="section-label">{t('about.tabs.culture')}</span>
             <h2 className="about-section-title">{cultureData.title || t('about.culture.title')}</h2>
           </div>
         </ScrollReveal>
@@ -381,7 +378,6 @@ const CertificatesSection = ({ certificates }: { certificates: any[] }) => {
       <div className="container">
         <ScrollReveal>
           <div className="about-section-header">
-            <span className="section-label">{t('about.tabs.certificates')}</span>
             <h2 className="about-section-title">{t('about.certificates.title')}</h2>
             <p className="about-section-subtitle">{t('about.certificates.subtitle')}</p>
           </div>
@@ -415,7 +411,6 @@ const WhyUsSection = ({ items }: { items: any[] }) => {
       <div className="container">
         <ScrollReveal>
           <div className="about-section-header">
-            <span className="section-label">{t('about.tabs.whyUs')}</span>
             <h2 className="about-section-title">{t('about.whyUs.title')}</h2>
             <p className="about-section-subtitle">{t('about.whyUs.subtitle')}</p>
           </div>

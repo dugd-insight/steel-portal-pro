@@ -36,7 +36,6 @@ const Header = ({ theme, onThemeChange, ThemeSelector }: HeaderProps) => {
     { key: 'solutions', path: '/solutions' },
     { key: 'technology', path: '/technology' },
     { key: 'esg', path: '/esg' },
-    { key: 'news', path: '/news' },
     { key: 'contact', path: '/contact' },
   ];
 

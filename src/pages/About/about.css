@@ -15,7 +15,7 @@
 
 .about-hero-new .section-label {
   display: inline-block;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -25,7 +25,7 @@
 
 .about-hero-new .about-hero-title {
   font-family: var(--font-display);
-  font-size: 42px;
+  font-size: 2.625rem;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 20px;
@@ -35,9 +35,9 @@
 }
 
 .about-hero-new .about-hero-desc {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--text-secondary);
-  max-width: 700px;
+  max-width: 840px;
   margin: 0 auto;
   line-height: 1.7;
 }
@@ -65,7 +65,7 @@
   border-radius: 24px;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -106,7 +106,7 @@
 
 .about-section-header .section-label {
   display: inline-block;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -116,14 +116,14 @@
 
 .about-section-title {
   font-family: var(--font-display);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 12px;
 }
 
 .about-section-subtitle {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--text-secondary);
   max-width: 600px;
   margin: 0 auto;
@@ -245,13 +245,13 @@
 .badge-year {
   display: block;
   font-family: var(--font-display);
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .badge-text {
-  font-size: 12px;
+  font-size: 0.75rem;
   opacity: 0.9;
 }
 
@@ -259,7 +259,7 @@
 }
 
 .about-company-desc {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 32px;
@@ -283,14 +283,14 @@
 .stat-value {
   display: block;
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--accent-primary);
   margin-bottom: 4px;
 }
 
 .stat-label {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--text-muted);
 }
 
@@ -308,7 +308,7 @@
 }
 
 .about-info-card h4 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
@@ -327,7 +327,7 @@
   padding-left: 16px;
   position: relative;
   color: var(--text-secondary);
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .about-info-card li::before {
@@ -509,7 +509,7 @@
 
 .culture-label {
   display: block;
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -518,14 +518,14 @@
 }
 
 .about-culture-card-large h3 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
 }
 
 .about-culture-card-large p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: var(--text-secondary);
   line-height: 1.7;
 }
@@ -606,7 +606,7 @@
 
 .about-values-title {
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
   margin: 0;
@@ -649,14 +649,14 @@
 }
 
 .about-value-item h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 6px;
 }
 
 .about-value-item p {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--text-secondary);
   line-height: 1.6;
 }
@@ -716,14 +716,14 @@
 }
 
 .about-culture-card h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 12px 0 8px;
 }
 
 .about-culture-card p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text-secondary);
   line-height: 1.7;
 }
@@ -814,14 +814,14 @@
 }
 
 .about-cert-card-new h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 8px;
 }
 
 .about-cert-card-new p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text-secondary);
   line-height: 1.6;
 }
@@ -892,7 +892,7 @@
   top: 20px;
   right: 24px;
   font-family: var(--font-display);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary, #d4a017));
   -webkit-background-clip: text;
@@ -908,7 +908,7 @@
 }
 
 .about-why-card-new h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
@@ -916,7 +916,7 @@
 }
 
 .about-why-card-new p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text-secondary);
   line-height: 1.7;
 }
@@ -956,7 +956,7 @@
 
   .about-anchor-btn {
     padding: 8px 16px;
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
 }
 
@@ -966,7 +966,7 @@
   }
 
   .about-hero-new .about-hero-title {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .about-section-new {
@@ -974,7 +974,7 @@
   }
 
   .about-section-title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .about-stats-row {

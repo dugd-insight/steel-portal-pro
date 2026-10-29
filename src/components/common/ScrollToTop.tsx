@@ -36,7 +36,7 @@ export default function ScrollToTop() {
             border: 'none',
             background: 'var(--accent-primary, #1a5fb4)',
             color: 'white',
-            fontSize: 20,
+            fontSize: '1.25rem',
             cursor: 'pointer',
             zIndex: 999,
             display: 'flex',

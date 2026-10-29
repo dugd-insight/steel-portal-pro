@@ -109,8 +109,8 @@
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
 
-  --font-display: 'Outfit', sans-serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Outfit', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  --font-body: 'Inter', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
 
   --accent-secondary: #d4a017;
   --accent-secondary-light: rgba(212, 160, 23, 0.1);
@@ -134,6 +134,14 @@
 
 html {
   scroll-behavior: smooth;
+  /* 响应式根字号：只放大字号，布局框(板块/卡片/间距)保持 px 不变。
+     基准 18px（约 1440px 视口），大屏自动放大至 22px，小屏不低于 18px。 */
+  font-size: clamp(18px, 0.4vw + 12.2px, 22px);
+}
+
+/* 中文状态下字号略大：中文字形视觉偏小，需比英文大 2px 达到相同观感 */
+html[lang="zh"] {
+  font-size: clamp(20px, 0.45vw + 13.5px, 24px);
 }
 
 body {
@@ -152,7 +160,7 @@ body {
   background: var(--accent-primary);
   color: white;
   padding: 8px 0;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .top-contact-content {
@@ -183,7 +191,7 @@ body {
 
 .top-contact-divider {
   color: rgba(255, 255, 255, 0.3);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .top-contact-whatsapp {
@@ -222,7 +230,7 @@ body {
   border: none;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   cursor: pointer;
   border-radius: 8px;
@@ -293,13 +301,13 @@ body {
 
 .about-established {
   font-family: var(--font-display);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   color: white;
 }
 
 .about-established-text {
-  font-size: 16px;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -320,14 +328,14 @@ body {
 .about-stat-value {
   display: block;
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--accent-primary);
   margin-bottom: 4px;
 }
 
 .about-stat-label {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--text-muted);
 }
 
@@ -343,7 +351,7 @@ body {
 
 .about-company-desc {
   color: var(--text-secondary);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 32px;
 }
@@ -353,7 +361,7 @@ body {
 }
 
 .about-content-title {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
@@ -370,7 +378,7 @@ body {
   padding-left: 24px;
   position: relative;
   color: var(--text-secondary);
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .about-list li::before {
@@ -400,14 +408,14 @@ body {
 .about-export-value {
   display: block;
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--accent-primary);
   margin-bottom: 4px;
 }
 
 .about-export-label {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--text-secondary);
 }
 
@@ -444,7 +452,7 @@ body {
 }
 
 .about-culture-label {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -453,14 +461,14 @@ body {
 }
 
 .about-culture-card-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
 }
 
 .about-culture-card-desc {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.7;
   color: var(--text-secondary);
 }
@@ -487,19 +495,19 @@ body {
 }
 
 .about-value-icon {
-  font-size: 36px;
+  font-size: 2.25rem;
   margin-bottom: 12px;
 }
 
 .about-value-title {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 8px;
 }
 
 .about-value-desc {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--text-secondary);
   line-height: 1.6;
 }
@@ -512,7 +520,7 @@ body {
 
 .about-cert-subtitle {
   color: var(--text-secondary);
-  font-size: 16px;
+  font-size: 1rem;
   margin-top: 8px;
 }
 
@@ -548,14 +556,14 @@ body {
 }
 
 .about-cert-name {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 8px;
 }
 
 .about-cert-desc {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text-secondary);
 }
 
@@ -567,7 +575,7 @@ body {
 
 .about-why-subtitle {
   color: var(--text-secondary);
-  font-size: 16px;
+  font-size: 1rem;
   margin-top: 8px;
 }
 
@@ -592,7 +600,7 @@ body {
 
 .about-why-num {
   font-family: var(--font-display);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--accent-primary);
   opacity: 0.15;
@@ -602,7 +610,7 @@ body {
 }
 
 .about-why-title {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
@@ -610,7 +618,7 @@ body {
 }
 
 .about-why-desc {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text-secondary);
   line-height: 1.7;
   position: relative;
@@ -657,7 +665,7 @@ body {
   
   .about-tab-btn {
     padding: 10px 16px;
-    font-size: 14px;
+    font-size: 0.875rem;
     white-space: nowrap;
   }
   
@@ -728,7 +736,7 @@ body {
   border: 1px solid var(--border-medium);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -741,12 +749,12 @@ body {
 }
 
 .language-flag {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1;
 }
 
 .language-label {
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .language-arrow {
@@ -792,7 +800,7 @@ body {
   border: none;
   background: transparent;
   color: var(--text-primary);
-  font-size: 14px;
+  font-size: 0.875rem;
   cursor: pointer;
   transition: background 0.2s ease;
   text-align: left;
@@ -809,7 +817,7 @@ body {
 }
 
 .language-option-flag {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1;
 }
 
@@ -1021,7 +1029,7 @@ body {
   padding: 14px 28px;
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -1042,7 +1050,7 @@ body {
 
 .btn-lg {
   padding: 16px 36px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .btn-outline {
@@ -1075,7 +1083,7 @@ body {
   background: var(--accent-primary);
   color: white;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.9375rem;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -1110,7 +1118,7 @@ body {
   align-items: center;
   gap: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .trust-item svg {
@@ -1241,7 +1249,7 @@ body {
 
 .stat-number {
   font-family: var(--font-display);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--accent-primary);
   line-height: 1;
@@ -1250,7 +1258,7 @@ body {
 
 .stat-label {
   color: var(--text-secondary);
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 /* ========================================
@@ -1336,7 +1344,7 @@ body {
   color: white;
   padding: 8px 16px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -1350,7 +1358,7 @@ body {
 
 .product-card-title {
   font-family: var(--font-display);
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
@@ -1358,7 +1366,7 @@ body {
 
 .product-card-desc {
   color: var(--text-secondary);
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -1375,7 +1383,7 @@ body {
   color: var(--text-secondary);
   padding: 6px 12px;
   border-radius: 6px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
 }
 
@@ -1452,7 +1460,7 @@ body {
 
 .feature-title {
   font-family: var(--font-display);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 10px;
@@ -1460,7 +1468,7 @@ body {
 
 .feature-desc {
   color: var(--text-secondary);
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.6;
   font-weight: 500;
 }
@@ -1501,7 +1509,7 @@ body {
 }
 
 .testimonial-quote {
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.7;
   color: var(--text-primary);
   margin-bottom: 28px;
@@ -1534,7 +1542,7 @@ body {
 }
 
 .testimonial-role {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text-muted);
 }
 
@@ -1547,7 +1555,7 @@ body {
 
 .form-label {
   display: block;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--text-primary);
   margin-bottom: 8px;
@@ -1560,7 +1568,7 @@ body {
   border: 1px solid var(--border-medium);
   border-radius: 10px;
   font-family: var(--font-body);
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: var(--text-primary);
   transition: all 0.3s ease;
 }
@@ -1601,7 +1609,7 @@ body {
 
 .footer-title {
   font-family: var(--font-display);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: white;
   margin-bottom: 20px;
@@ -1610,7 +1618,7 @@ body {
 .footer-link {
   display: block;
   padding: 6px 0;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .footer-bottom {
@@ -1666,7 +1674,7 @@ body {
    ======================================== */
 .section-label {
   display: inline-block;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -1676,7 +1684,7 @@ body {
 
 .section-title {
   font-family: var(--font-display);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 20px;
@@ -1684,9 +1692,9 @@ body {
 }
 
 .section-desc {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--text-secondary);
-  max-width: 600px;
+  max-width: 720px;
   line-height: 1.7;
 }
 
@@ -1743,7 +1751,7 @@ body {
   background: var(--accent-light);
   color: var(--accent-primary);
   border-radius: 20px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 600;
 }
 
@@ -1794,7 +1802,7 @@ body {
 .cta-title {
   position: relative;
   font-family: var(--font-display);
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 16px;
   color: white;
@@ -1802,7 +1810,7 @@ body {
 
 .cta-desc {
   position: relative;
-  font-size: 18px;
+  font-size: 1.125rem;
   opacity: 0.9;
   margin-bottom: 32px;
   max-width: 600px;
@@ -1836,7 +1844,7 @@ body {
   }
 
   .section-title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
 
   .gallery-grid {
@@ -1891,7 +1899,7 @@ body {
   }
 
   .section-title {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .gallery-grid {
@@ -1913,7 +1921,7 @@ body {
   }
 
   .hero-bright-title {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .hero-bright-stats {
@@ -2383,7 +2391,7 @@ body {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 50px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.9);
   text-transform: uppercase;
@@ -2406,7 +2414,7 @@ body {
 /* 主标题 */
 .hero-immersive-title {
   font-family: var(--font-display);
-  font-size: clamp(48px, 7vw, 72px);
+  font-size: clamp(3rem, 7vw, 4.5rem);
   font-weight: 700;
   line-height: 1.1;
   color: #ffffff;
@@ -2436,7 +2444,7 @@ body {
 
 /* 描述文字 */
 .hero-immersive-desc {
-  font-size: clamp(16px, 2vw, 20px);
+  font-size: clamp(1rem, 2vw, 1.25rem);
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.8;
   margin-bottom: 40px;
@@ -2460,7 +2468,7 @@ body {
   padding: 18px 36px;
   background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 12px;
   border: none;
@@ -2508,7 +2516,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -2544,7 +2552,7 @@ body {
 .hero-stat-num {
   display: block;
   font-family: var(--font-display);
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 700;
   color: #ffffff;
   line-height: 1;
@@ -2553,7 +2561,7 @@ body {
 }
 
 .hero-stat-label {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
 }
@@ -2576,7 +2584,7 @@ body {
   align-items: center;
   gap: 12px;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   animation: fadeInUp 1s ease-out 1.5s backwards;
 }
@@ -2631,7 +2639,7 @@ body {
 /* 响应式 */
 @media (max-width: 1024px) {
   .hero-immersive-title {
-    font-size: clamp(36px, 6vw, 48px);
+    font-size: clamp(2.25rem, 6vw, 3rem);
   }
   
   .hero-immersive-stats {
@@ -2640,7 +2648,7 @@ body {
   }
   
   .hero-stat-num {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 }
 
@@ -2700,7 +2708,7 @@ body {
 
 .hero-bright-title {
   font-family: var(--font-display);
-  font-size: clamp(40px, 5vw, 56px);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 700;
   line-height: 1.15;
   color: var(--text-primary);
@@ -2715,7 +2723,7 @@ body {
 }
 
 .hero-bright-desc {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 32px;
@@ -2747,7 +2755,7 @@ body {
 .hero-bright-stat-num {
   display: block;
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--accent-primary);
   line-height: 1;
@@ -2755,7 +2763,7 @@ body {
 }
 
 .hero-bright-stat-label {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--text-secondary);
 }
 
@@ -2791,14 +2799,14 @@ body {
 .hero-bright-badge-year {
   display: block;
   font-family: var(--font-display);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--accent-primary);
   line-height: 1;
 }
 
 .hero-bright-badge-text {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--text-secondary);
 }
 
@@ -2883,7 +2891,7 @@ body {
 
 .features-section .feature-title {
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 12px;
@@ -2891,7 +2899,7 @@ body {
 
 .features-section .feature-desc {
   color: var(--text-secondary);
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.6;
 }
 
@@ -2977,7 +2985,7 @@ body {
   border: 1px solid var(--accent-primary);
   border-radius: 50px;
   color: var(--accent-primary);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   margin-bottom: 32px;
 }
@@ -2992,7 +3000,7 @@ body {
 
 .hero-v2-title {
   font-family: 'Outfit', sans-serif;
-  font-size: clamp(48px, 5vw, 72px);
+  font-size: clamp(3rem, 5vw, 4.5rem);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -3008,7 +3016,7 @@ body {
 }
 
 .hero-v2-desc {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.8;
   color: var(--text-secondary);
   margin-bottom: 40px;
@@ -3027,7 +3035,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 16px 32px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: var(--accent-primary);
   background: transparent;
@@ -3061,7 +3069,7 @@ body {
 .hero-stat-num {
   display: block;
   font-family: 'Outfit', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--accent-primary);
   line-height: 1;
@@ -3069,7 +3077,7 @@ body {
 }
 
 .hero-stat-label {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--text-secondary);
 }
 
@@ -3120,14 +3128,14 @@ body {
 
 .hero-card-content h3 {
   font-family: 'Outfit', sans-serif;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   color: #0f172a;
   margin-bottom: 8px;
 }
 
 .hero-card-content p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #64748b;
 }
 
@@ -3145,7 +3153,7 @@ body {
 }
 
 .hero-float-card span {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   color: #0f172a;
 }
@@ -3221,7 +3229,7 @@ body {
 }
 
 .hero-scroll span {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -3400,7 +3408,7 @@ body {
 .trade-map-stat-num {
   display: block;
   font-family: var(--font-display);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--accent-primary);
   line-height: 1;
@@ -3408,7 +3416,7 @@ body {
 }
 
 .trade-map-stat-label {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--text-secondary);
   font-weight: 500;
 }
@@ -3597,7 +3605,7 @@ body {
   }
 
   .section-title {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .gallery-grid {
@@ -3657,7 +3665,7 @@ body {
   }
 
   .section-title {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .gallery-grid {
@@ -3679,7 +3687,7 @@ body {
   }
 
   .hero-bright-title {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .hero-bright-stats {

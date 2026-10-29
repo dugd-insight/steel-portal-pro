@@ -27,7 +27,8 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
+      // 默认中文：优先读用户已保存的选择，否则按 html lang="zh" 回退中文
+      order: ['localStorage', 'htmlTag'],
       caches: ['localStorage'],
     },
     returnObjects: true,

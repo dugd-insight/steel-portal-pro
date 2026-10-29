@@ -142,7 +142,7 @@ const ProductCardCarousel = ({ product, onClick, t }: { product: typeof products
             color: 'white',
             padding: '4px 10px',
             borderRadius: 12,
-            fontSize: 12,
+            fontSize: '0.75rem',
           }}>
             {currentIdx + 1} / {product.images.length}
           </span>
@@ -200,7 +200,7 @@ const ProductCardCarousel = ({ product, onClick, t }: { product: typeof products
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                fontSize: 18,
+                fontSize: '1.125rem',
               }}
             >
               ‹
@@ -225,7 +225,7 @@ const ProductCardCarousel = ({ product, onClick, t }: { product: typeof products
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                fontSize: 18,
+                fontSize: '1.125rem',
               }}
             >
               ›
@@ -235,7 +235,7 @@ const ProductCardCarousel = ({ product, onClick, t }: { product: typeof products
       </div>
       <div className="product-content">
         <h3 className="product-title">{name}</h3>
-        <p style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: 12 }}>
+        <p style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', lineHeight: 1.5, marginBottom: 12 }}>
           {desc.substring(0, 40)}...
         </p>
         <div className="product-specs">
@@ -332,7 +332,7 @@ const Products = () => {
       {/* Products Grid */}
       <section className="section" id="products-grid">
         <div className="container">
-          <div className="products-grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))' }}>
+          <div className="products-grid">
             {filteredProducts.map((product) => (
               <ProductCardCarousel
                 key={product.key}
@@ -388,7 +388,7 @@ const Products = () => {
                 border: 'none',
                 background: 'rgba(0,0,0,0.5)',
                 color: 'white',
-                fontSize: 20,
+                fontSize: '1.25rem',
                 cursor: 'pointer',
                 zIndex: 10,
               }}
@@ -495,20 +495,20 @@ const Products = () => {
                 background: 'var(--accent-light)',
                 color: 'var(--accent-primary)',
                 borderRadius: 12,
-                fontSize: 12,
+                fontSize: '0.75rem',
                 fontWeight: 600,
                 marginBottom: 12,
               }}>
                 {t(`productList.${selectedProductData.key}.category`)}
               </span>
-              <h2 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: 12 }}>
                 {t(`productList.${selectedProductData.key}.name`)}
               </h2>
               <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: 20 }}>
                 {t(`productList.${selectedProductData.key}.desc`)}
               </p>
 
-              <h4 style={{ fontSize: 16, fontWeight: 600, marginBottom: 12 }}>{t('productDetail.specsTitle')}</h4>
+              <h4 style={{ fontSize: '1rem', fontWeight: 600, marginBottom: 12 }}>{t('productDetail.specsTitle')}</h4>
               <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 24 }}>
                 {(t(`productList.${selectedProductData.key}.specs`, { returnObjects: true }) as string[]).map((spec, i) => (
                   <span
@@ -517,7 +517,7 @@ const Products = () => {
                       padding: '8px 16px',
                       background: 'var(--bg-secondary)',
                       borderRadius: 8,
-                      fontSize: 14,
+                      fontSize: '0.875rem',
                       color: 'var(--text-primary)',
                     }}
                   >
