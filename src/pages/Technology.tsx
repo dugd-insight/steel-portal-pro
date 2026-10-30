@@ -1,6 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { usePage } from '../hooks/usePage';
-import LoadingSpinner from '../components/common/LoadingSpinner';
 import ScrollReveal from '../components/common/ScrollReveal';
 import ScrollRevealSection from '../components/common/ScrollRevealSection';
 import './pages.css';
@@ -8,15 +6,9 @@ import './pages.css';
 const Technology = () => {
   const { t } = useTranslation();
 
-  // 获取技术页面数据
-  const {
-    data: pageData,
-    isLoading: pageLoading,
-    error: pageError,
-  } = usePage('technology');
-
-  const sections = pageData?.sections;
-  const pageMetadata = pageData?.metadata || {};
+  // 纯静态页面（生产环境无后端 API），直接使用内置内容
+  const sections = undefined;
+  const pageMetadata: Record<string, any> = {};
 
   // 默认统计数据
   const defaultStats = [
@@ -88,19 +80,6 @@ const Technology = () => {
       icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.72v-.5a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>,
     },
   ];
-
-  if (pageLoading) {
-    return (
-      <div className="technology-page">
-        <LoadingSpinner />
-      </div>
-    );
-  }
-
-  // 如果 API 失败，使用静态内容作为后备
-  if (pageError) {
-    console.warn('Failed to load technology page data from API, using fallback content');
-  }
 
   return (
     <div className="technology-page">

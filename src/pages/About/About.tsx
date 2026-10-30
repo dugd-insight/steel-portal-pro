@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import ScrollReveal from '../../components/common/ScrollReveal';
 import ScrollRevealSection from '../../components/common/ScrollRevealSection';
-import { usePage } from '../../hooks/usePage';
-import LoadingSpinner from '../../components/common/LoadingSpinner';
 import './about.css';
 
 // Image Carousel Component
@@ -68,40 +66,6 @@ const ImageCarousel = () => {
 };
 
 // SVG Icons
-const VisionIcon = () => (
-  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-    <circle cx="12" cy="12" r="10" />
-    <circle cx="12" cy="12" r="4" />
-    <path d="M12 2v4M12 18v4M2 12h4M18 12h4" />
-  </svg>
-);
-
-const MissionIcon = () => (
-  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-    <path d="M12 8v4M12 16h.01" />
-  </svg>
-);
-
-const ValueIcon = () => (
-  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-  </svg>
-);
-
-const PhilosophyIcon = () => (
-  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-  </svg>
-);
-
-const SpiritIcon = () => (
-  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-  </svg>
-);
-
 const CertificateIcon = () => (
   <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
     <circle cx="12" cy="8" r="7" />
@@ -113,15 +77,9 @@ const About = () => {
   const { t } = useTranslation();
   const [activeSection, setActiveSection] = useState('company');
 
-  // 获取关于页面数据
-  const {
-    data: pageData,
-    isLoading: pageLoading,
-    error: pageError,
-  } = usePage('about');
-
-  const sections = pageData?.sections;
-  const pageMetadata = pageData?.metadata || {};
+  // 纯静态页面（无后端 API），直接使用内置内容
+  const sections = undefined;
+  const pageMetadata: Record<string, any> = {};
 
   // 从 API 数据或翻译文件获取证书和优势数据
   const certificates = pageMetadata.certificates || t('about.certificates.items', { returnObjects: true }) as any[];
@@ -129,7 +87,7 @@ const About = () => {
 
   // Scroll-spy: highlight active section in nav
   useEffect(() => {
-    const sectionIds = ['company', 'culture', 'certificates', 'why-us'];
+    const sectionIds = ['company', 'certificates', 'why-us'];
     const handleScroll = () => {
       const scrollPos = window.scrollY + 150;
       for (let i = sectionIds.length - 1; i >= 0; i--) {
@@ -159,15 +117,9 @@ const About = () => {
 
   const sectionsNav = [
     { id: 'company', label: t('about.tabs.company') },
-    { id: 'culture', label: t('about.tabs.culture') },
     { id: 'certificates', label: t('about.tabs.certificates') },
     { id: 'why-us', label: t('about.tabs.whyUs') },
   ];
-
-  // 如果 API 失败，使用静态内容作为后备，不要一直显示 loading
-  if (pageError) {
-    console.warn('Failed to load about page data from API, using fallback content');
-  }
 
   return (
     <div className="about-page-new">
@@ -198,9 +150,6 @@ const About = () => {
 
       {/* Company Section */}
       <CompanySection sections={sections} />
-
-      {/* Culture Section */}
-      <CultureSection sections={sections} />
 
       {/* Certificates Section */}
       <CertificatesSection certificates={certificates} />
@@ -251,119 +200,9 @@ const CompanySection = ({ sections }: { sections?: any[] }) => {
                   <span className="stat-label">{t('about.company.factory.lines')}</span>
                 </div>
               </div>
-
-              <div className="about-products-apps">
-                <div className="about-info-card">
-                  <h4>{t('about.company.products.title')}</h4>
-                  <ul>
-                    {(companyData.products || t('about.company.products.items', { returnObjects: true }) as string[]).map((item: string, i: number) => (
-                      <li key={i}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="about-info-card">
-                  <h4>{t('about.company.applications.title')}</h4>
-                  <ul>
-                    {(companyData.applications || t('about.company.applications.items', { returnObjects: true }) as string[]).map((item: string, i: number) => (
-                      <li key={i}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
             </div>
           </ScrollReveal>
         </div>
-      </div>
-    </ScrollRevealSection>
-  );
-};
-
-// Culture Section Component - 支持动态数据
-const CultureSection = ({ sections }: { sections?: any[] }) => {
-  const { t } = useTranslation();
-
-  // 从 sections 获取文化数据
-  const cultureSection = sections?.find(s => s.type === 'culture');
-  const cultureData = cultureSection?.metadata || {};
-
-  return (
-    <ScrollRevealSection id="culture" className="about-section-new about-section-alt">
-      <div className="container">
-        <ScrollReveal>
-          <div className="about-section-header">
-            <h2 className="about-section-title">{cultureData.title || t('about.culture.title')}</h2>
-          </div>
-        </ScrollReveal>
-
-        {/* 4 Culture Cards: 2x2 Grid */}
-        <div className="about-culture-grid-new">
-          <ScrollReveal delay={0.1}>
-            <div className="about-culture-card-large">
-              <div className="culture-card-icon icon-blue"><VisionIcon /></div>
-              <span className="culture-label">{t('about.culture.vision.label')}</span>
-              <h3>{cultureData.visionTitle || t('about.culture.vision.title')}</h3>
-              <p>{cultureData.visionDesc || t('about.culture.vision.desc')}</p>
-            </div>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.2}>
-            <div className="about-culture-card-large">
-              <div className="culture-card-icon icon-emerald"><MissionIcon /></div>
-              <span className="culture-label">{t('about.culture.mission.label')}</span>
-              <h3>{cultureData.missionTitle || t('about.culture.mission.title')}</h3>
-              <p>{cultureData.missionDesc || t('about.culture.mission.desc')}</p>
-            </div>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.3}>
-            <div className="about-culture-card-large">
-              <div className="culture-card-icon icon-teal"><PhilosophyIcon /></div>
-              <span className="culture-label">{t('about.culture.philosophy.label')}</span>
-              <h3>{cultureData.philosophyTitle || t('about.culture.philosophy.title')}</h3>
-              <p>{cultureData.philosophyDesc || t('about.culture.philosophy.desc')}</p>
-            </div>
-          </ScrollReveal>
-
-          <ScrollReveal delay={0.4}>
-            <div className="about-culture-card-large">
-              <div className="culture-card-icon icon-orange"><SpiritIcon /></div>
-              <span className="culture-label">{t('about.culture.spirit.label')}</span>
-              <h3>{cultureData.spiritTitle || t('about.culture.spirit.title')}</h3>
-              <p>{cultureData.spiritDesc || t('about.culture.spirit.desc')}</p>
-            </div>
-          </ScrollReveal>
-        </div>
-
-        {/* Core Values - Separate Full-Width Section */}
-        <ScrollReveal delay={0.2}>
-          <div className="about-values-section">
-            <div className="about-values-header">
-              <div className="culture-card-icon icon-violet values-header-icon"><ValueIcon /></div>
-              <div className="about-values-header-text">
-                <span className="culture-label">{t('about.culture.values.label')}</span>
-                <h3 className="about-values-title">{t('about.culture.values.label')}</h3>
-              </div>
-            </div>
-            <div className="about-values-list">
-              {(cultureData.values || [
-                { key: 'customerFirst', icon: true },
-                { key: 'selfDiscipline', icon: true },
-                { key: 'dedication', icon: true },
-              ]).map((value: any, i: number) => {
-                const iconColors = ['icon-violet', 'icon-amber', 'icon-rose'];
-                return (
-                <div key={i} className="about-value-item">
-                  <div className={`value-icon-small ${iconColors[i % iconColors.length]}`}><ValueIcon /></div>
-                  <div>
-                    <h4>{value.title || t(`about.culture.values.${value.key}.title`)}</h4>
-                    <p>{value.desc || t(`about.culture.values.${value.key}.desc`)}</p>
-                  </div>
-                </div>
-                );
-              })}
-            </div>
-          </div>
-        </ScrollReveal>
       </div>
     </ScrollRevealSection>
   );
@@ -374,7 +213,7 @@ const CertificatesSection = ({ certificates }: { certificates: any[] }) => {
   const { t } = useTranslation();
 
   return (
-    <ScrollRevealSection id="certificates" className="about-section-new">
+    <ScrollRevealSection id="certificates" className="about-section-new about-section-alt">
       <div className="container">
         <ScrollReveal>
           <div className="about-section-header">
@@ -407,7 +246,7 @@ const WhyUsSection = ({ items }: { items: any[] }) => {
   const { t } = useTranslation();
 
   return (
-    <ScrollRevealSection id="why-us" className="about-section-new about-section-alt">
+    <ScrollRevealSection id="why-us" className="about-section-new">
       <div className="container">
         <ScrollReveal>
           <div className="about-section-header">

@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { useScrollReveal } from '../hooks/useScrollReveal';
-import { usePage } from '../hooks/usePage';
 import type { PageSection } from '../api/pages';
 import './pages.css';
 
@@ -165,7 +164,7 @@ const TrustBar = () => {
     phone: '+86 635 2180898',
     mobile: '+86 15063550004',
     email: 'chenxi@lccxtz.com',
-    address: '山东省聊城经济技术开发区黄山路1号星光荣富中心17A室',
+    address: '中国 · 山东 · 聊城',
   };
 
   return (
@@ -195,7 +194,7 @@ const TrustBar = () => {
           <div className="trust-divider" />
           <div className="trust-item">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-            <span>{contactInfo.address}</span>
+            <span style={{ letterSpacing: '0.15em', fontWeight: 500 }}>{contactInfo.address}</span>
           </div>
         </div>
       </div>
@@ -701,10 +700,8 @@ const Home = () => {
   useScrollReveal();
   const { t } = useTranslation();
 
-  // 尝试加载 CMS 数据（后端不可用时使用默认数据，不影响页面显示）
-  const { data: pageData } = usePage('home');
-
-  const sections = pageData?.sections || [];
+  // 纯静态页面（无后端 API），直接使用内置内容
+  const sections: PageSection[] = [];
 
   return (
     <div>

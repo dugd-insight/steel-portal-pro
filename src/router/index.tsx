@@ -5,7 +5,6 @@ import About from '../pages/About/About';
 import Products from '../pages/Products';
 import Solutions from '../pages/Solutions';
 import Contact from '../pages/Contact';
-import ESG from '../pages/ESG';
 import Technology from '../pages/Technology';
 import ProductDetail from '../pages/Products/ProductDetail';
 
@@ -20,7 +19,6 @@ export const router = createHashRouter([
       { path: 'products/:slug', element: <ProductDetail /> },
       { path: 'solutions', element: <Solutions /> },
       { path: 'contact', element: <Contact /> },
-      { path: 'esg', element: <ESG /> },
       { path: 'technology', element: <Technology /> },
       { path: '*', element: <Navigate to="/" replace /> },
     ],

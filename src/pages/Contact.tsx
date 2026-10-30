@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { usePage } from '../hooks/usePage';
-import { useSettings } from '../hooks/useSettings';
 import LoadingSpinner from '../components/common/LoadingSpinner';
 import ScrollReveal from '../components/common/ScrollReveal';
 import ScrollRevealSection from '../components/common/ScrollRevealSection';
@@ -17,21 +15,9 @@ const Contact = () => {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  // 获取联系页面数据
-  const {
-    data: pageData,
-    isLoading: pageLoading,
-    error: pageError,
-  } = usePage('contact');
-
-  // 获取网站设置（包含联系信息）
-  const {
-    data: settingsData,
-    isLoading: settingsLoading,
-  } = useSettings();
-
-  const pageMetadata = pageData?.metadata || {};
-  const contactInfo = settingsData?.contact || {};
+  // 纯静态页面（无后端 API），直接使用内置内容
+  const pageMetadata: Record<string, any> = {};
+  const contactInfo: Record<string, any> = {};
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -71,7 +57,7 @@ const Contact = () => {
     },
   ];
 
-  const isLoading = pageLoading || settingsLoading;
+  const isLoading = false;
 
   return (
     <div className="contact-page">

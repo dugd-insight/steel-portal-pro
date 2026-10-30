@@ -1,7 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { usePage } from '../hooks/usePage';
-import LoadingSpinner from '../components/common/LoadingSpinner';
 import ScrollReveal from '../components/common/ScrollReveal';
 import ScrollRevealSection from '../components/common/ScrollRevealSection';
 import './pages.css';
@@ -9,15 +7,9 @@ import './pages.css';
 const Solutions = () => {
   const { t } = useTranslation();
 
-  // 获取解决方案页面数据
-  const {
-    data: pageData,
-    isLoading: pageLoading,
-    error: pageError,
-  } = usePage('solutions');
-
-  const sections = pageData?.sections;
-  const pageMetadata = pageData?.metadata || {};
+  // 纯静态页面（生产环境无后端 API），直接使用内置内容
+  const sections = undefined;
+  const pageMetadata: Record<string, any> = {};
 
   // 默认解决方案数据
   const defaultSolutions = [
@@ -72,19 +64,6 @@ const Solutions = () => {
   const processSteps: { step: string; title: string; desc: string }[] =
     processSection?.metadata?.steps ||
     t('solutions.process.steps', { returnObjects: true }) as { step: string; title: string; desc: string }[];
-
-  if (pageLoading) {
-    return (
-      <div className="solutions-page">
-        <LoadingSpinner />
-      </div>
-    );
-  }
-
-  // 如果 API 失败，使用静态内容作为后备
-  if (pageError) {
-    console.warn('Failed to load solutions page data from API, using fallback content');
-  }
 
   return (
     <div className="solutions-page">
