@@ -145,22 +145,6 @@ const Solutions = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <ScrollRevealSection>
-        <section className="section cta-section">
-          <div className="container">
-            <div className="cta-box">
-              <div className="cta-content">
-                <h2 className="cta-title">{pageMetadata.ctaTitle || t('solutions.cta.title')}</h2>
-                <p className="cta-desc">{pageMetadata.ctaDescription || t('solutions.cta.description')}</p>
-              </div>
-              <Link to="/contact" className="btn btn-primary btn-lg">
-                {pageMetadata.ctaButton || t('solutions.cta.button')}
-              </Link>
-            </div>
-          </div>
-        </section>
-      </ScrollRevealSection>
     </div>
   );
 };

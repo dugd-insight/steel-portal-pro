@@ -50,12 +50,6 @@ const Technology = () => {
     certSection?.metadata?.items ||
     t('technology.certifications.items', { returnObjects: true }) as { name: string; standard: string }[];
 
-  // 获取设备数据
-  const equipSection = sections?.find(s => s.type === 'equipment');
-  const equipItems: { name: string; model: string; origin: string }[] =
-    equipSection?.metadata?.items ||
-    t('technology.equipment.items', { returnObjects: true }) as { name: string; model: string; origin: string }[];
-
   // 获取核心能力数据
   const capabilitiesSection = sections?.find(s => s.type === 'capabilities');
   const capabilities = capabilitiesSection?.metadata?.items || [
@@ -175,6 +169,12 @@ const Technology = () => {
             {certItems.map((cert, i) => (
               <ScrollReveal key={i} direction='up' delay={i * 0.1}>
                 <div className="cert-badge">
+                  <div className="cert-badge-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                      <path d="m9 12 2 2 4-4" />
+                    </svg>
+                  </div>
                   <div className="cert-badge-name">{cert.name}</div>
                   <div className="cert-badge-desc">{cert.standard}</div>
                 </div>
@@ -184,38 +184,6 @@ const Technology = () => {
         </div>
       </section>
 
-      {/* Equipment Table */}
-      <ScrollRevealSection>
-        <section className="section section-light">
-          <div className="container">
-            <div className="section-header-center">
-              <span className="section-label">{equipSection?.title || t('technology.equipment.label')}</span>
-              <h2 className="section-title">{equipSection?.content || t('technology.equipment.title')}</h2>
-              <p className="section-subtitle">{equipSection?.metadata?.subtitle || t('technology.equipment.subtitle')}</p>
-            </div>
-            <div className="equipment-table-wrapper">
-              <table className="data-table">
-                <thead>
-                  <tr>
-                    <th>{t('technology.equipment.tableHeaders.name')}</th>
-                    <th>{t('technology.equipment.tableHeaders.model')}</th>
-                    <th>{t('technology.equipment.tableHeaders.origin')}</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {equipItems.map((item, i) => (
-                    <tr key={i}>
-                      <td>{item.name}</td>
-                      <td>{item.model}</td>
-                      <td>{item.origin}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-      </ScrollRevealSection>
     </div>
   );
 };
