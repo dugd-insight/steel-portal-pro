@@ -329,7 +329,7 @@ const Products = ({ sections }: { sections?: PageSection[] }) => {
   const { t } = useTranslation();
   const productsSection = sections?.find(s => s.type === 'products');
 
-  // 首页展示6款主打产品（使用真实照片，支持轮播）
+  // 首页展示9款主打产品（3×3 满行，使用真实照片，支持轮播）
   const featuredProducts = [
     {
       key: 'gi-pipe-round',
@@ -386,6 +386,22 @@ const Products = ({ sections }: { sections?: PageSection[] }) => {
       images: ['./images/products/hr-coil-1.jpg', './images/products/hr-coil-2.jpg', './images/products/hr-coil-3.jpg', './images/products/hr-coil-4.jpg'],
       badgeKey: 'products.featured.hrCoil.badge',
       specs: ['厚度1.2-25.4mm', '宽度1000-2100mm', 'Q235B/Q345B/SPHC'],
+    },
+    {
+      key: 'gi-pipe-square',
+      titleKey: 'productList.gi-pipe-square.name',
+      descKey: 'productList.gi-pipe-square.desc',
+      images: ['./images/products/gi-pipe-square-1.jpg', './images/products/gi-pipe-square-2.jpg', './images/products/gi-pipe-square-3.jpg', './images/products/gi-pipe-square-4.jpg'],
+      badgeKey: 'productList.gi-pipe-square.category',
+      specs: ['15×15-400×400mm', '壁厚0.8-16mm', 'Q195/Q235/Q345'],
+    },
+    {
+      key: 'gi-sheet',
+      titleKey: 'productList.gi-sheet.name',
+      descKey: 'productList.gi-sheet.desc',
+      images: ['./images/products/gi-sheet-1.jpg', './images/products/gi-sheet-2.jpg', './images/products/gi-sheet-3.jpg', './images/products/gi-sheet-4.jpg'],
+      badgeKey: 'productList.gi-sheet.category',
+      specs: ['厚度0.12-6.0mm', '宽度600-1500mm', 'Z40-Z275'],
     },
   ];
 
