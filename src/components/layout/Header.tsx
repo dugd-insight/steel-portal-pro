@@ -7,10 +7,9 @@ import LanguageSwitcher from '../common/LanguageSwitcher';
 interface HeaderProps {
   theme: string;
   onThemeChange: (theme: string) => void;
-  ThemeSelector: React.ReactNode;
 }
 
-const Header = ({ theme, onThemeChange, ThemeSelector }: HeaderProps) => {
+const Header = ({ theme, onThemeChange }: HeaderProps) => {
   const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -68,7 +67,6 @@ const Header = ({ theme, onThemeChange, ThemeSelector }: HeaderProps) => {
               {t('nav.getQuote')}
             </Link>
             <LanguageSwitcher />
-            {ThemeSelector}
           </div>
 
           {/* Mobile menu button */}
